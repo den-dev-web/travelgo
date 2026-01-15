@@ -1,0 +1,105 @@
+.c-modal {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: var(--space-l);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration-base) var(--ease-out);
+  z-index: 50;
+}
+
+.c-modal[data-state="open"] {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.c-modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 17, 20, 0.5);
+  backdrop-filter: blur(var(--blur-s));
+}
+
+.c-modal__panel {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 520px);
+  max-height: 90vh;
+  overflow: auto;
+  background: var(--color-surface);
+  border-radius: var(--radius-l);
+  padding: var(--space-l);
+  box-shadow: var(--shadow-l);
+  transform: translateY(12px);
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+.c-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-s);
+  margin-bottom: var(--space-m);
+}
+
+.c-modal__header--right {
+  justify-content: flex-end;
+}
+
+.c-modal__nav {
+  display: grid;
+  gap: var(--space-s);
+}
+
+.c-modal[data-state="open"] .c-modal__panel {
+  transform: translateY(0);
+}
+
+.c-modal--drawer {
+  place-items: stretch;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.c-modal--drawer .c-modal__panel {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0;
+  transform: translateX(100%);
+}
+
+.c-modal--drawer[data-state="open"] .c-modal__panel {
+  transform: translateX(0);
+}
+
+.c-modal--sheet {
+  place-items: end stretch;
+  padding: 0;
+}
+
+.c-modal--sheet .c-modal__panel {
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  border-radius: 0;
+  transform: translateY(24px);
+}
+
+.c-modal--sheet[data-state="open"] .c-modal__panel {
+  transform: translateY(0);
+}
+
+@media (min-width: 700px) {
+  .c-modal--sheet {
+    place-items: center;
+    padding: var(--space-l);
+  }
+
+  .c-modal--sheet .c-modal__panel {
+    width: min(100%, 520px);
+    max-height: 90vh;
+    border-radius: var(--radius-l);
+  }
+}

@@ -1,0 +1,10 @@
+.o-container {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+}
+
+.o-grid {
+  display: grid;
+  gap: var(--space-m);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}

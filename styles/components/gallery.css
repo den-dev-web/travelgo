@@ -1,0 +1,25 @@
+.c-gallery__grid {
+  columns: 2;
+  column-gap: var(--space-m);
+}
+
+.c-gallery__item {
+  break-inside: avoid;
+  margin-bottom: var(--space-m);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  background: var(--color-surface);
+  aspect-ratio: var(--media-ratio, 4 / 3);
+}
+
+.c-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .c-gallery__grid {
+    columns: 4;
+  }
+}

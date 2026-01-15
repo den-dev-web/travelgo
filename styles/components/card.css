@@ -1,0 +1,79 @@
+.c-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-l);
+  box-shadow: var(--shadow-s);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  transition: transform var(--duration-base) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out);
+}
+
+.c-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-m);
+}
+
+.c-card__media {
+  position: relative;
+}
+
+.c-card__body {
+  padding: var(--space-m);
+  display: grid;
+  gap: var(--space-xs);
+}
+
+.c-card__title {
+  font-size: var(--text-l);
+  font-weight: 600;
+}
+
+.c-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  font-size: var(--text-s);
+  color: var(--color-text-subtle);
+  align-items: center;
+}
+
+.c-card__country {
+  margin-left: auto;
+}
+
+.c-card__price {
+  font-size: var(--text-l);
+  font-weight: 600;
+}
+
+.c-card__actions {
+  margin-top: var(--space-s);
+}
+
+.c-card--skeleton {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-card--skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    var(--color-skeleton-highlight),
+    transparent
+  );
+  animation: skeleton-shimmer 1.4s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

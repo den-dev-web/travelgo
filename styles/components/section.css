@@ -1,0 +1,20 @@
+.c-section {
+  padding: var(--space-2xl) 0;
+}
+
+.c-section__header {
+  display: grid;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-l);
+}
+
+.c-section__eyebrow {
+  font-size: var(--text-xs);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.c-section__title {
+  font-size: var(--text-2xl);
+}

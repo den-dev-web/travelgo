@@ -1,0 +1,1619 @@
+{
+  "tours": [
+    {
+      "id": "amalfi-coast-escape",
+      "title": {
+        "en": "Amalfi Coast Escape",
+        "uk": "Амальфі: сонячне узбережжя",
+        "ru": "Амальфи: солнечное побережье"
+      },
+      "location": {
+        "countryKey": "italy",
+        "country": {
+          "en": "Italy",
+          "uk": "Італія",
+          "ru": "Италия"
+        },
+        "region": {
+          "en": "Amalfi Coast",
+          "uk": "Узбережжя Амальфі",
+          "ru": "Побережье Амальфи"
+        },
+        "city": {
+          "en": "Naples",
+          "uk": "Неаполь",
+          "ru": "Неаполь"
+        }
+      },
+      "days": 6,
+      "difficulty": "easy",
+      "rating": 4.8,
+      "badges": ["popular", "best-value"],
+      "priceUAH": 28900,
+      "priceEUR": 690,
+      "shortDescription": {
+        "en": "Sun-lit cliffs, lemon groves, and sea-view villages along the Amalfi drive.",
+        "uk": "Сонячні скелі, лимонні гаї та морські містечка вздовж Амальфі драйву.",
+        "ru": "Солнечные скалы, лимонные рощи и морские городки вдоль Амальфи драйва."
+      },
+      "highlights": {
+        "en": [
+          "Positano sunset walk",
+          "Capri boat day",
+          "Neapolitan street food"
+        ],
+        "uk": [
+          "Захід сонця в Позітано",
+          "День на човні до Капрі",
+          "Вулична кухня Неаполя"
+        ],
+        "ru": [
+          "Закат в Позитано",
+          "День на катере к Капри",
+          "Уличная кухня Неаполя"
+        ]
+      },
+      "included": {
+        "en": [
+          "4* hotel",
+          "Breakfasts",
+          "Transfers",
+          "Guided walks",
+          "Capri ticket"
+        ],
+        "uk": [
+          "Готель 4*",
+          "Сніданки",
+          "Трансфери",
+          "Екскурсії",
+          "Квиток на Капрі"
+        ],
+        "ru": [
+          "Отель 4*",
+          "Завтраки",
+          "Трансферы",
+          "Экскурсии",
+          "Билет на Капри"
+        ]
+      },
+      "excluded": {
+        "en": ["Flights", "Lunches and dinners", "Tips", "Insurance"],
+        "uk": ["Авіаквитки", "Обіди та вечері", "Чайові", "Страхування"],
+        "ru": ["Перелет", "Обеды и ужины", "Чаевые", "Страховка"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrive in Naples, evening paseo by the bay.",
+            "uk": "Приїзд до Неаполя, вечірня прогулянка набережною.",
+            "ru": "Прилёт в Неаполь, вечерняя прогулка по набережной."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Sorrento coast walk and local market.",
+            "uk": "Узбережжя Сорренто та місцевий ринок.",
+            "ru": "Побережье Сорренто и местный рынок."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Positano and Amalfi viewpoints.",
+            "uk": "Позітано та оглядові Амальфі.",
+            "ru": "Позитано и панорамы Амальфи."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Capri boat day with time ashore.",
+            "uk": "День на човні до Капрі з часом на острові.",
+            "ru": "День на катере к Капри с прогулками по острову."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Free day and food tour in Naples.",
+            "uk": "Вільний день та гастротур у Неаполі.",
+            "ru": "Свободный день и гастротур в Неаполе."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Italy_Amalfi.jpg",
+        "./assets/images/gallery/Italy/italy_001.jpg",
+        "./assets/images/gallery/Italy/italy_002.jpg",
+        "./assets/images/gallery/Italy/italy_003.jpg",
+        "./assets/images/gallery/Italy/italy_004.jpg",
+        "./assets/images/gallery/Italy/italy_005.jpg",
+        "./assets/images/gallery/Italy/italy_006.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "provence-riviera-light",
+      "title": {
+        "en": "Provence & Riviera Light",
+        "uk": "Прованс і Рів'єра",
+        "ru": "Прованс и Ривьера"
+      },
+      "location": {
+        "countryKey": "france",
+        "country": {
+          "en": "France",
+          "uk": "Франція",
+          "ru": "Франция"
+        },
+        "region": {
+          "en": "Provence & Nice",
+          "uk": "Прованс і Ніцца",
+          "ru": "Прованс и Ницца"
+        },
+        "city": {
+          "en": "Nice",
+          "uk": "Ніцца",
+          "ru": "Ницца"
+        }
+      },
+      "days": 7,
+      "difficulty": "easy",
+      "rating": 4.7,
+      "badges": ["romantic", "new"],
+      "priceUAH": 33500,
+      "priceEUR": 790,
+      "shortDescription": {
+        "en": "Lavender lanes, art towns, and a soft sea breeze.",
+        "uk": "Лавандові дороги, арт-містечка й ніжний морський бриз.",
+        "ru": "Лавандовые дороги, арт-городки и мягкий морской бриз."
+      },
+      "highlights": {
+        "en": ["Lavender fields", "Nice old town", "Antibes coast"],
+        "uk": ["Лавандові поля", "Старе місто Ніцци", "Узбережжя Антіб"],
+        "ru": ["Лавандовые поля", "Старый город Ниццы", "Побережье Антиб"]
+      },
+      "included": {
+        "en": ["4* hotel", "Breakfasts", "Local transport", "2 guided tours"],
+        "uk": ["Готель 4*", "Сніданки", "Місцевий транспорт", "2 екскурсії"],
+        "ru": ["Отель 4*", "Завтраки", "Местный транспорт", "2 экскурсии"]
+      },
+      "excluded": {
+        "en": ["Flights", "Lunches and dinners", "Museum tickets"],
+        "uk": ["Авіаквитки", "Обіди та вечері", "Квитки до музеїв"],
+        "ru": ["Перелет", "Обеды и ужины", "Билеты в музеи"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrive in Nice, evening by the Promenade.",
+            "uk": "Приїзд до Ніцци, вечір на Променаді.",
+            "ru": "Прилёт в Ниццу, вечер на Променаде."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Old town walk and market tasting.",
+            "uk": "Прогулянка старим містом і дегустації на ринку.",
+            "ru": "Прогулка по старому городу и дегустации на рынке."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Provence villages and art studios.",
+            "uk": "Села Провансу та арт-студії.",
+            "ru": "Деревни Прованса и арт-студии."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Lavender fields at golden hour.",
+            "uk": "Лавандові поля на заході сонця.",
+            "ru": "Лавандовые поля на закате."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Antibes coast and seaside lunch.",
+            "uk": "Узбережжя Антіб і обід біля моря.",
+            "ru": "Побережье Антиб и обед у моря."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Free day for museums or beaches.",
+            "uk": "Вільний день для музеїв або пляжу.",
+            "ru": "Свободный день для музеев или пляжа."
+          }
+        },
+        {
+          "day": 7,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Provence.jpg",
+        "./assets/images/gallery/France/france_001.jpg",
+        "./assets/images/gallery/France/france_002.jpg",
+        "./assets/images/gallery/France/france_003.jpg",
+        "./assets/images/gallery/France/france_004.jpg",
+        "./assets/images/gallery/France/france_005.jpg",
+        "./assets/images/gallery/France/france_006.jpg",
+        "./assets/images/gallery/France/france_007.jpg",
+        "./assets/images/gallery/France/france_008.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "swiss-alps-panorama",
+      "title": {
+        "en": "Swiss Alps Panorama",
+        "uk": "Панорама Швейцарських Альп",
+        "ru": "Панорама Швейцарских Альп"
+      },
+      "location": {
+        "countryKey": "switzerland",
+        "country": {
+          "en": "Switzerland",
+          "uk": "Швейцарія",
+          "ru": "Швейцария"
+        },
+        "region": {
+          "en": "Lucerne & Interlaken",
+          "uk": "Люцерн і Інтерлакен",
+          "ru": "Люцерн и Интерлакен"
+        },
+        "city": {
+          "en": "Lucerne",
+          "uk": "Люцерн",
+          "ru": "Люцерн"
+        }
+      },
+      "days": 5,
+      "difficulty": "moderate",
+      "rating": 4.9,
+      "badges": ["top-rated"],
+      "priceUAH": 36900,
+      "priceEUR": 880,
+      "shortDescription": {
+        "en": "Mountain railways, crystal lakes, and alpine air.",
+        "uk": "Гірські залізниці, кришталеві озера та свіже альпійське повітря.",
+        "ru": "Горные железные дороги, кристальные озера и альпийский воздух."
+      },
+      "highlights": {
+        "en": ["Jungfrau railway", "Lake Lucerne cruise", "Scenic hikes"],
+        "uk": [
+          "Залізниця Юнгфрау",
+          "Круїз по озеру Люцерн",
+          "Мальовничі хайки"
+        ],
+        "ru": ["Ж/д Юнгфрау", "Круиз по озеру Люцерн", "Живописные хайки"]
+      },
+      "included": {
+        "en": ["4* hotel", "Breakfasts", "Rail passes", "Mountain guide"],
+        "uk": ["Готель 4*", "Сніданки", "Залізничні паси", "Гірський гід"],
+        "ru": ["Отель 4*", "Завтраки", "Ж/д пассы", "Горный гид"]
+      },
+      "excluded": {
+        "en": ["Flights", "Lunches", "Cable car upgrades"],
+        "uk": ["Авіаквитки", "Обіди", "Апгрейд канатних доріг"],
+        "ru": ["Перелет", "Обеды", "Апгрейд канаток"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrive in Lucerne, lakeside stroll.",
+            "uk": "Приїзд до Люцерна, прогулянка біля озера.",
+            "ru": "Прилёт в Люцерн, прогулка у озера."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Lake Lucerne cruise and old town.",
+            "uk": "Круїз по озеру та старе місто.",
+            "ru": "Круиз по озеру и старый город."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Train to Interlaken and valley views.",
+            "uk": "Переїзд до Інтерлакена та долинні пейзажі.",
+            "ru": "Переезд в Интерлакен и виды долин."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Jungfrau day with alpine viewpoints.",
+            "uk": "День Юнгфрау з альпійськими панорамами.",
+            "ru": "День Юнгфрау с альпийскими панорамами."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Switzerland.jpg",
+        "./assets/images/gallery/Switzerland/switzerland_001.jpg",
+        "./assets/images/gallery/Switzerland/switzerland_002.jpg",
+        "./assets/images/gallery/Switzerland/switzerland_003.jpg",
+        "./assets/images/gallery/Switzerland/switzerland_004.jpg",
+        "./assets/images/gallery/Switzerland/switzerland_005.jpg",
+        "./assets/images/gallery/Switzerland/switzerland_006.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "lisbon-porto-atlantic",
+      "title": {
+        "en": "Lisbon & Porto Atlantic",
+        "uk": "Лісабон і Порту",
+        "ru": "Лиссабон и Порту"
+      },
+      "location": {
+        "countryKey": "portugal",
+        "country": {
+          "en": "Portugal",
+          "uk": "Португалія",
+          "ru": "Португалия"
+        },
+        "region": {
+          "en": "Lisbon & Porto",
+          "uk": "Лісабон і Порту",
+          "ru": "Лиссабон и Порту"
+        },
+        "city": {
+          "en": "Lisbon",
+          "uk": "Лісабон",
+          "ru": "Лиссабон"
+        }
+      },
+      "days": 7,
+      "difficulty": "easy",
+      "rating": 4.6,
+      "badges": ["best-value"],
+      "priceUAH": 26900,
+      "priceEUR": 640,
+      "shortDescription": {
+        "en": "Trams, tiled streets, and Atlantic sunsets.",
+        "uk": "Трамваї, кахельні вулиці та атлантичні заходи сонця.",
+        "ru": "Трамваи, плиточные улицы и атлантические закаты."
+      },
+      "highlights": {
+        "en": ["Alfama walk", "Porto wine cellars", "Ocean viewpoints"],
+        "uk": [
+          "Прогулянка Альфамою",
+          "Винні підвали Порту",
+          "Океанські оглядові"
+        ],
+        "ru": ["Прогулка по Альфаме", "Винные подвалы Порту", "Океанские виды"]
+      },
+      "included": {
+        "en": ["3-4* hotel", "Breakfasts", "Train between cities"],
+        "uk": ["Готель 3-4*", "Сніданки", "Потяг між містами"],
+        "ru": ["Отель 3-4*", "Завтраки", "Поезд между городами"]
+      },
+      "excluded": {
+        "en": ["Flights", "Dinners", "Wine tastings"],
+        "uk": ["Авіаквитки", "Вечері", "Дегустації вина"],
+        "ru": ["Перелет", "Ужины", "Дегустации вина"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrive in Lisbon, evening in Bairro Alto.",
+            "uk": "Приїзд до Лісабона, вечір у Байрру-Алту.",
+            "ru": "Прилёт в Лиссабон, вечер в Байрру-Алту."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Alfama and Belem district.",
+            "uk": "Альфама та район Белем.",
+            "ru": "Альфама и район Белем."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Day trip to Sintra.",
+            "uk": "Одноденна поїздка до Сінтри.",
+            "ru": "Однодневная поездка в Синтру."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Train to Porto, riverside walk.",
+            "uk": "Потяг до Порту, прогулянка набережною.",
+            "ru": "Поезд в Порту, прогулка по набережной."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Ribeira quarter and wine cellars.",
+            "uk": "Квартал Рібейра та винні підвали.",
+            "ru": "Квартал Рибейра и винные подвалы."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Free day by the Atlantic.",
+            "uk": "Вільний день біля океану.",
+            "ru": "Свободный день у океана."
+          }
+        },
+        {
+          "day": 7,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Lisbon_Porto.jpg",
+        "./assets/images/gallery/Portugal/portugal_001.jpg",
+        "./assets/images/gallery/Portugal/portugal_002.jpg",
+        "./assets/images/gallery/Portugal/portugal_003.jpg",
+        "./assets/images/gallery/Portugal/portugal_004.jpg",
+        "./assets/images/gallery/Portugal/portugal_005.jpg",
+        "./assets/images/gallery/Portugal/portugal_006.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "barcelona-costa-brava",
+      "title": {
+        "en": "Barcelona & Costa Brava",
+        "uk": "Барселона і Коста-Брава",
+        "ru": "Барселона и Коста-Брава"
+      },
+      "location": {
+        "countryKey": "spain",
+        "country": {
+          "en": "Spain",
+          "uk": "Іспанія",
+          "ru": "Испания"
+        },
+        "region": {
+          "en": "Barcelona & Coast",
+          "uk": "Барселона і узбережжя",
+          "ru": "Барселона и побережье"
+        },
+        "city": {
+          "en": "Barcelona",
+          "uk": "Барселона",
+          "ru": "Барселона"
+        }
+      },
+      "days": 6,
+      "difficulty": "easy",
+      "rating": 4.7,
+      "badges": ["popular"],
+      "priceUAH": 27500,
+      "priceEUR": 650,
+      "shortDescription": {
+        "en": "Gaudi icons and seaside coves in one bright journey.",
+        "uk": "Ікони Гауді та морські бухти в одній яскравій подорожі.",
+        "ru": "Иконы Гауди и морские бухты в одном ярком путешествии."
+      },
+      "highlights": {
+        "en": ["Sagrada Familia", "Girona day trip", "Costa Brava beaches"],
+        "uk": ["Саграда Фамілія", "Поїздка в Жирону", "Пляжі Коста-Брава"],
+        "ru": ["Саграда Фамилия", "Поездка в Жирону", "Пляжи Коста-Брава"]
+      },
+      "included": {
+        "en": ["Hotel", "Breakfasts", "Metro pass"],
+        "uk": ["Готель", "Сніданки", "Проїзний метро"],
+        "ru": ["Отель", "Завтраки", "Проездной метро"]
+      },
+      "excluded": {
+        "en": ["Flights", "Museum tickets"],
+        "uk": ["Авіаквитки", "Квитки до музеїв"],
+        "ru": ["Перелет", "Билеты в музеи"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrival and sunset at the waterfront.",
+            "uk": "Приїзд і захід сонця на набережній.",
+            "ru": "Прилёт и закат на набережной."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Gaudi route and park walk.",
+            "uk": "Маршрут Гауді та парк.",
+            "ru": "Маршрут Гауди и парк."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Gothic Quarter and tapas night.",
+            "uk": "Готичний квартал і вечір тапас.",
+            "ru": "Готический квартал и вечер тапас."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Day trip to Girona.",
+            "uk": "Одноденна поїздка в Жирону.",
+            "ru": "Однодневная поездка в Жирону."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Costa Brava beaches.",
+            "uk": "Пляжі Коста-Брава.",
+            "ru": "Пляжи Коста-Брава."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Spain_Barcelona.jpg",
+        "./assets/images/gallery/Spain/spain_001.jpg",
+        "./assets/images/gallery/Spain/spain_002.jpg",
+        "./assets/images/gallery/Spain/spain_003.jpg",
+        "./assets/images/gallery/Spain/spain_004.jpg",
+        "./assets/images/gallery/Spain/spain_005.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "greek-islands-calm",
+      "title": {
+        "en": "Greek Islands Calm",
+        "uk": "Спокій грецьких островів",
+        "ru": "Спокойствие греческих островов"
+      },
+      "location": {
+        "countryKey": "greece",
+        "country": {
+          "en": "Greece",
+          "uk": "Греція",
+          "ru": "Греция"
+        },
+        "region": {
+          "en": "Santorini & Paros",
+          "uk": "Санторіні та Парос",
+          "ru": "Санторини и Парос"
+        },
+        "city": {
+          "en": "Santorini",
+          "uk": "Санторіні",
+          "ru": "Санторини"
+        }
+      },
+      "days": 8,
+      "difficulty": "easy",
+      "rating": 4.8,
+      "badges": ["romantic"],
+      "priceUAH": 34900,
+      "priceEUR": 820,
+      "shortDescription": {
+        "en": "Whitewashed villages and soft Aegean light.",
+        "uk": "Білі містечка та м'яке егейське світло.",
+        "ru": "Белые городки и мягкий эгейский свет."
+      },
+      "highlights": {
+        "en": ["Oia sunset", "Island boat day", "Local taverns"],
+        "uk": ["Захід сонця в Ої", "День на човні", "Місцеві таверни"],
+        "ru": ["Закат в Ойе", "День на катере", "Местные таверны"]
+      },
+      "included": {
+        "en": ["Hotels", "Breakfasts", "Ferries", "Island transfers"],
+        "uk": ["Готелі", "Сніданки", "Поромні квитки", "Острівні трансфери"],
+        "ru": ["Отели", "Завтраки", "Паромы", "Островные трансферы"]
+      },
+      "excluded": {
+        "en": ["Flights", "Dinners", "Boat tour upgrades"],
+        "uk": ["Авіаквитки", "Вечері", "Апгрейди морських турів"],
+        "ru": ["Перелет", "Ужины", "Апгрейды морских туров"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrival in Athens and evening stroll.",
+            "uk": "Приїзд до Афін і вечірня прогулянка.",
+            "ru": "Прилёт в Афины и вечерняя прогулка."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Flight to Santorini and check-in.",
+            "uk": "Переліт на Санторіні та заселення.",
+            "ru": "Перелёт на Санторини и заселение."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Oia village and sunset views.",
+            "uk": "Село Оя та захід сонця.",
+            "ru": "Деревня Оя и закатные виды."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Free island day with beaches.",
+            "uk": "Вільний день на острові з пляжами.",
+            "ru": "Свободный день на острове с пляжами."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Ferry to Paros, seaside walk.",
+            "uk": "Пором до Пароса, прогулянка біля моря.",
+            "ru": "Паром на Парос, прогулка у моря."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Naoussa and island flavors.",
+            "uk": "Науса та острівні смаки.",
+            "ru": "Науса и островные вкусы."
+          }
+        },
+        {
+          "day": 7,
+          "text": {
+            "en": "Beach day and sunset dinner.",
+            "uk": "Пляжний день і вечеря на заході.",
+            "ru": "Пляжный день и ужин на закате."
+          }
+        },
+        {
+          "day": 8,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Greek_Islands.jpg",
+        "./assets/images/gallery/Greece/greece_001.jpg",
+        "./assets/images/gallery/Greece/greece_002.jpg",
+        "./assets/images/gallery/Greece/greece_003.jpg",
+        "./assets/images/gallery/Greece/greece_004.jpg",
+        "./assets/images/gallery/Greece/greece_005.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "norway-fjords-scenic",
+      "title": {
+        "en": "Norway Fjords Scenic",
+        "uk": "Мальовничі фіорди Норвегії",
+        "ru": "Живописные фьорды Норвегии"
+      },
+      "location": {
+        "countryKey": "norway",
+        "country": {
+          "en": "Norway",
+          "uk": "Норвегія",
+          "ru": "Норвегия"
+        },
+        "region": {
+          "en": "Bergen & Fjords",
+          "uk": "Берген і фіорди",
+          "ru": "Берген и фьорды"
+        },
+        "city": {
+          "en": "Bergen",
+          "uk": "Берген",
+          "ru": "Берген"
+        }
+      },
+      "days": 7,
+      "difficulty": "moderate",
+      "rating": 4.9,
+      "badges": ["top-rated"],
+      "priceUAH": 39900,
+      "priceEUR": 950,
+      "shortDescription": {
+        "en": "Waterfalls, fjord cruises, and quiet coastal villages.",
+        "uk": "Водоспади, фіорд-круїзи та тихі прибережні містечка.",
+        "ru": "Водопады, фьорд-круизы и тихие прибрежные городки."
+      },
+      "highlights": {
+        "en": ["Neroyfjord cruise", "Flam railway", "Waterfall hikes"],
+        "uk": [
+          "Круїз Неройфьордом",
+          "Залізниця Флом",
+          "Піші маршрути до водоспадів"
+        ],
+        "ru": ["Круиз по Нерёй-фьорду", "Ж/д Флом", "Треки к водопадам"]
+      },
+      "included": {
+        "en": ["Hotels", "Breakfasts", "Fjord cruise", "Rail passes"],
+        "uk": ["Готелі", "Сніданки", "Фіорд-круїз", "Залізничні паси"],
+        "ru": ["Отели", "Завтраки", "Фьорд-круиз", "Ж/д пассы"]
+      },
+      "excluded": {
+        "en": ["Flights", "Lunches", "Kayak options"],
+        "uk": ["Авіаквитки", "Обіди", "Опції каякінгу"],
+        "ru": ["Перелет", "Обеды", "Опции каякинга"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrival in Bergen, harbor walk.",
+            "uk": "Приїзд до Бергена, прогулянка портом.",
+            "ru": "Прилёт в Берген, прогулка по порту."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Bergen viewpoints and city stroll.",
+            "uk": "Оглядові Бергена та міські прогулянки.",
+            "ru": "Смотровые Бергена и прогулки по городу."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Flam railway and valley views.",
+            "uk": "Залізниця Флом та долинні пейзажі.",
+            "ru": "Ж/д Флом и долинные виды."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Neroyfjord cruise day.",
+            "uk": "День круїзу Неройфьордом.",
+            "ru": "День круиза по Нерёй-фьорду."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Aurland village and lakes.",
+            "uk": "Село Аурланд і озера.",
+            "ru": "Деревня Аурланд и озера."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Free day or optional hike.",
+            "uk": "Вільний день або опційний хайк.",
+            "ru": "Свободный день или опциональный хайк."
+          }
+        },
+        {
+          "day": 7,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Norway_Fjords_Scenic.jpg",
+        "./assets/images/gallery/Norway/norway_001.jpg",
+        "./assets/images/gallery/Norway/norway_002.jpg",
+        "./assets/images/gallery/Norway/norway_003.jpg",
+        "./assets/images/gallery/Norway/norway_004.jpg",
+        "./assets/images/gallery/Norway/norway_005.jpg",
+        "./assets/images/gallery/Norway/norway_006.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "iceland-south-coast",
+      "title": {
+        "en": "Iceland South Coast",
+        "uk": "Південне узбережжя Ісландії",
+        "ru": "Южное побережье Исландии"
+      },
+      "location": {
+        "countryKey": "iceland",
+        "country": {
+          "en": "Iceland",
+          "uk": "Ісландія",
+          "ru": "Исландия"
+        },
+        "region": {
+          "en": "South Coast",
+          "uk": "Південне узбережжя",
+          "ru": "Южное побережье"
+        },
+        "city": {
+          "en": "Reykjavik",
+          "uk": "Рейк'явік",
+          "ru": "Рейкьявик"
+        }
+      },
+      "days": 10,
+      "difficulty": "moderate",
+      "rating": 4.8,
+      "badges": ["adventure"],
+      "priceUAH": 49900,
+      "priceEUR": 1190,
+      "shortDescription": {
+        "en": "Black sand, glaciers, and quiet geothermal warmth.",
+        "uk": "Чорні пляжі, льодовики та спокійні термальні джерела.",
+        "ru": "Черные пляжи, ледники и спокойные термальные источники."
+      },
+      "highlights": {
+        "en": ["Skogafoss waterfall", "Glacier lagoon", "Geothermal spa"],
+        "uk": [
+          "Водоспад Скоугафосс",
+          "Льодовикова лагуна",
+          "Термальні купальні"
+        ],
+        "ru": ["Водопад Скоугафосс", "Ледниковая лагуна", "Термальные купальни"]
+      },
+      "included": {
+        "en": ["Hotels", "Breakfasts", "Transport", "Guide"],
+        "uk": ["Готелі", "Сніданки", "Транспорт", "Гід"],
+        "ru": ["Отели", "Завтраки", "Транспорт", "Гид"]
+      },
+      "excluded": {
+        "en": ["Flights", "Dinners", "Spa tickets"],
+        "uk": ["Авіаквитки", "Вечері", "Квитки до спа"],
+        "ru": ["Перелет", "Ужины", "Билеты в спа"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrive in Reykjavik, harbor walk.",
+            "uk": "Приїзд до Рейк'явіка, прогулянка портом.",
+            "ru": "Прилёт в Рейкьявик, прогулка по порту."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Golden Circle route.",
+            "uk": "Маршрут Золотого кільця.",
+            "ru": "Маршрут Золотого кольца."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "South coast and black sand beach.",
+            "uk": "Південне узбережжя і чорний пляж.",
+            "ru": "Южное побережье и черный пляж."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Vik village and coastal cliffs.",
+            "uk": "Село Вік і прибережні скелі.",
+            "ru": "Деревня Вик и прибрежные скалы."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Glacier lagoon day.",
+            "uk": "День на льодовиковій лагуні.",
+            "ru": "День на ледниковой лагуне."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "East route and scenic stops.",
+            "uk": "Східний маршрут і мальовничі зупинки.",
+            "ru": "Восточный маршрут и живописные остановки."
+          }
+        },
+        {
+          "day": 7,
+          "text": {
+            "en": "North coast drive.",
+            "uk": "Переїзд північним узбережжям.",
+            "ru": "Переезд по северному побережью."
+          }
+        },
+        {
+          "day": 8,
+          "text": {
+            "en": "Akureyri and local sights.",
+            "uk": "Акурейрі та локальні локації.",
+            "ru": "Акурейри и местные локации."
+          }
+        },
+        {
+          "day": 9,
+          "text": {
+            "en": "Free day in Reykjavik.",
+            "uk": "Вільний день у Рейк'явіку.",
+            "ru": "Свободный день в Рейкьявике."
+          }
+        },
+        {
+          "day": 10,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Iceland_South_Coast.jpg",
+        "./assets/images/gallery/Iceland/iceland_001.jpg",
+        "./assets/images/gallery/Iceland/iceland_002.jpg",
+        "./assets/images/gallery/Iceland/iceland_003.jpg",
+        "./assets/images/gallery/Iceland/iceland_004.jpg",
+        "./assets/images/gallery/Iceland/iceland_005.jpg",
+        "./assets/images/gallery/Iceland/iceland_006.jpg",
+        "./assets/images/gallery/Iceland/iceland_007.jpg",
+        "./assets/images/gallery/Iceland/iceland_008.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "prague-krumlov-story",
+      "title": {
+        "en": "Prague & Cesky Krumlov",
+        "uk": "Прага і Чеський Крумлов",
+        "ru": "Прага и Чешский Крумлов"
+      },
+      "location": {
+        "countryKey": "czechia",
+        "country": {
+          "en": "Czechia",
+          "uk": "Чехія",
+          "ru": "Чехия"
+        },
+        "region": {
+          "en": "Prague & South Bohemia",
+          "uk": "Прага і Південна Богемія",
+          "ru": "Прага и Южная Богемия"
+        },
+        "city": {
+          "en": "Prague",
+          "uk": "Прага",
+          "ru": "Прага"
+        }
+      },
+      "days": 5,
+      "difficulty": "easy",
+      "rating": 4.7,
+      "badges": ["best-value"],
+      "priceUAH": 19900,
+      "priceEUR": 470,
+      "shortDescription": {
+        "en": "Storybook streets, bridges, and riverside evenings.",
+        "uk": "Казкові вулиці, мости та вечори біля річки.",
+        "ru": "Сказочные улицы, мосты и вечера у реки."
+      },
+      "highlights": {
+        "en": ["Charles Bridge sunrise", "Krumlov day trip", "Craft beer"],
+        "uk": ["Карлів міст на світанку", "Поїздка в Крумлов", "Крафтове пиво"],
+        "ru": ["Карлов мост на рассвете", "Поездка в Крумлов", "Крафтовое пиво"]
+      },
+      "included": {
+        "en": ["Hotel", "Breakfasts", "Guided walk"],
+        "uk": ["Готель", "Сніданки", "Екскурсійна прогулянка"],
+        "ru": ["Отель", "Завтраки", "Экскурсионная прогулка"]
+      },
+      "excluded": {
+        "en": ["Flights", "Lunches", "Museum tickets"],
+        "uk": ["Авіаквитки", "Обіди", "Квитки до музеїв"],
+        "ru": ["Перелет", "Обеды", "Билеты в музеи"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrival in Prague, Old Town walk.",
+            "uk": "Приїзд до Праги, прогулянка Старим містом.",
+            "ru": "Прилёт в Прагу, прогулка по Старому городу."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Castle district and viewpoints.",
+            "uk": "Район замку та оглядові.",
+            "ru": "Район замка и смотровые."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Day trip to Cesky Krumlov.",
+            "uk": "Одноденна поїздка в Чеський Крумлов.",
+            "ru": "Однодневная поездка в Чешский Крумлов."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Free day for museums or cafes.",
+            "uk": "Вільний день для музеїв або кав'ярень.",
+            "ru": "Свободный день для музеев или кафе."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Prague.jpg",
+        "./assets/images/gallery/Greece/greece_001.jpg",
+        "./assets/images/gallery/Greece/greece_002.jpg",
+        "./assets/images/gallery/Greece/greece_003.jpg",
+        "./assets/images/gallery/Greece/greece_004.jpg",
+        "./assets/images/gallery/Greece/greece_005.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "vienna-salzburg-classic",
+      "title": {
+        "en": "Vienna & Salzburg Classic",
+        "uk": "Відень і Зальцбург",
+        "ru": "Вена и Зальцбург"
+      },
+      "location": {
+        "countryKey": "austria",
+        "country": {
+          "en": "Austria",
+          "uk": "Австрія",
+          "ru": "Австрия"
+        },
+        "region": {
+          "en": "Vienna & Salzburg",
+          "uk": "Відень і Зальцбург",
+          "ru": "Вена и Зальцбург"
+        },
+        "city": {
+          "en": "Vienna",
+          "uk": "Відень",
+          "ru": "Вена"
+        }
+      },
+      "days": 6,
+      "difficulty": "easy",
+      "rating": 4.8,
+      "badges": ["cultural"],
+      "priceUAH": 24900,
+      "priceEUR": 590,
+      "shortDescription": {
+        "en": "Music halls, palaces, and alpine day trips.",
+        "uk": "Концертні зали, палаци та альпійські поїздки.",
+        "ru": "Концертные залы, дворцы и альпийские поездки."
+      },
+      "highlights": {
+        "en": ["Schonbrunn Palace", "Mozart quarter", "Salzach river"],
+        "uk": ["Палац Шенбрунн", "Квартал Моцарта", "Річка Зальцах"],
+        "ru": ["Дворец Шёнбрунн", "Квартал Моцарта", "Река Зальцах"]
+      },
+      "included": {
+        "en": ["Hotel", "Breakfasts", "Vienna-Salzburg train"],
+        "uk": ["Готель", "Сніданки", "Потяг Відень-Зальцбург"],
+        "ru": ["Отель", "Завтраки", "Поезд Вена-Зальцбург"]
+      },
+      "excluded": {
+        "en": ["Flights", "Concert tickets"],
+        "uk": ["Авіаквитки", "Квитки на концерти"],
+        "ru": ["Перелет", "Билеты на концерты"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrival in Vienna, evening stroll.",
+            "uk": "Приїзд до Відня, вечірня прогулянка.",
+            "ru": "Прилёт в Вену, вечерняя прогулка."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Palaces and gardens route.",
+            "uk": "Маршрут палаців і садів.",
+            "ru": "Маршрут дворцов и садов."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Museum quarter and cafes.",
+            "uk": "Музейний квартал і кав'ярні.",
+            "ru": "Музейный квартал и кафе."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Train to Salzburg, old town walk.",
+            "uk": "Потяг до Зальцбурга, прогулянка старим містом.",
+            "ru": "Поезд в Зальцбург, прогулка по старому городу."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Alpine day trip.",
+            "uk": "Альпійський день.",
+            "ru": "Альпийский день."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Vienna_Salzburg.jpg",
+        "./assets/images/gallery/Austria/austria_001.jpg",
+        "./assets/images/gallery/Austria/austria_002.jpg",
+        "./assets/images/gallery/Austria/austria_003.jpg",
+        "./assets/images/gallery/Austria/austria_004.jpg",
+        "./assets/images/gallery/Austria/austria_005.jpg",
+        "./assets/images/gallery/Austria/austria_006.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "croatia-dalmatian-coast",
+      "title": {
+        "en": "Croatia Dalmatian Coast",
+        "uk": "Далматинське узбережжя Хорватії",
+        "ru": "Далматинское побережье Хорватии"
+      },
+      "location": {
+        "countryKey": "croatia",
+        "country": {
+          "en": "Croatia",
+          "uk": "Хорватія",
+          "ru": "Хорватия"
+        },
+        "region": {
+          "en": "Split & Dubrovnik",
+          "uk": "Спліт і Дубровник",
+          "ru": "Сплит и Дубровник"
+        },
+        "city": {
+          "en": "Split",
+          "uk": "Спліт",
+          "ru": "Сплит"
+        }
+      },
+      "days": 8,
+      "difficulty": "easy",
+      "rating": 4.7,
+      "badges": ["popular"],
+      "priceUAH": 32900,
+      "priceEUR": 780,
+      "shortDescription": {
+        "en": "Walled cities, island hops, and clear Adriatic water.",
+        "uk": "Міста за мурами, острови й прозора Адріатика.",
+        "ru": "Города за стенами, острова и прозрачная Адриатика."
+      },
+      "highlights": {
+        "en": ["Diocletian's Palace", "Island cruise", "Dubrovnik walls"],
+        "uk": ["Палац Діоклетіана", "Круїз на острови", "Мури Дубровника"],
+        "ru": ["Дворец Диоклетиана", "Круиз по островам", "Стены Дубровника"]
+      },
+      "included": {
+        "en": ["Hotels", "Breakfasts", "Transfers", "Island day"],
+        "uk": ["Готелі", "Сніданки", "Трансфери", "Острівний день"],
+        "ru": ["Отели", "Завтраки", "Трансферы", "Островной день"]
+      },
+      "excluded": {
+        "en": ["Flights", "Dinners", "Wall tickets"],
+        "uk": ["Авіаквитки", "Вечері", "Квитки на мури"],
+        "ru": ["Перелет", "Ужины", "Билеты на стены"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrival in Split, promenade walk.",
+            "uk": "Приїзд до Спліта, прогулянка променадом.",
+            "ru": "Прилёт в Сплит, прогулка по променаду."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Old town and palace routes.",
+            "uk": "Старе місто та маршрути палацу.",
+            "ru": "Старый город и маршруты дворца."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Island cruise day.",
+            "uk": "День круїзу островами.",
+            "ru": "День круиза по островам."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Coastal drive to Dubrovnik.",
+            "uk": "Переїзд узбережжям до Дубровника.",
+            "ru": "Переезд по побережью в Дубровник."
+          }
+        },
+        {
+          "day": 5,
+          "text": {
+            "en": "Dubrovnik old town and walls.",
+            "uk": "Старе місто Дубровника та мури.",
+            "ru": "Старый город Дубровника и стены."
+          }
+        },
+        {
+          "day": 6,
+          "text": {
+            "en": "Free day by the sea.",
+            "uk": "Вільний день біля моря.",
+            "ru": "Свободный день у моря."
+          }
+        },
+        {
+          "day": 7,
+          "text": {
+            "en": "Optional island day or market.",
+            "uk": "Опційний день на острові або ринок.",
+            "ru": "Опциональный островной день или рынок."
+          }
+        },
+        {
+          "day": 8,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Croatia_Dalmatian_Coast.jpg",
+        "./assets/images/gallery/Croatia/croatia_001.jpg",
+        "./assets/images/gallery/Croatia/croatia_002.jpg",
+        "./assets/images/gallery/Croatia/croatia_003.jpg",
+        "./assets/images/gallery/Croatia/croatia_004.jpg",
+        "./assets/images/gallery/Croatia/croatia_005.jpg",
+        "./assets/images/gallery/Croatia/croatia_006.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": "netherlands-tulip-canals",
+      "title": {
+        "en": "Netherlands Tulip & Canals",
+        "uk": "Нідерланди: тюльпани і канали",
+        "ru": "Нидерланды: тюльпаны и каналы"
+      },
+      "location": {
+        "countryKey": "netherlands",
+        "country": {
+          "en": "Netherlands",
+          "uk": "Нідерланди",
+          "ru": "Нидерланды"
+        },
+        "region": {
+          "en": "Amsterdam & Keukenhof",
+          "uk": "Амстердам і Кекенхоф",
+          "ru": "Амстердам и Кекенхоф"
+        },
+        "city": {
+          "en": "Amsterdam",
+          "uk": "Амстердам",
+          "ru": "Амстердам"
+        }
+      },
+      "days": 4,
+      "difficulty": "easy",
+      "rating": 4.6,
+      "badges": ["seasonal"],
+      "priceUAH": 16900,
+      "priceEUR": 400,
+      "shortDescription": {
+        "en": "Canals, bikes, and spring gardens in bloom.",
+        "uk": "Канали, велосипеди та весняні сади у цвіті.",
+        "ru": "Каналы, велосипеды и весенние цветущие сады."
+      },
+      "highlights": {
+        "en": ["Canal cruise", "Keukenhof gardens", "Museum quarter"],
+        "uk": ["Прогулянка каналами", "Сади Кекенхоф", "Музейний квартал"],
+        "ru": ["Прогулка по каналам", "Сады Кекенхоф", "Музейный квартал"]
+      },
+      "included": {
+        "en": ["Hotel", "Breakfasts", "Canal cruise"],
+        "uk": ["Готель", "Сніданки", "Круїз каналами"],
+        "ru": ["Отель", "Завтраки", "Круиз по каналам"]
+      },
+      "excluded": {
+        "en": ["Flights", "Museum tickets"],
+        "uk": ["Авіаквитки", "Квитки до музеїв"],
+        "ru": ["Перелет", "Билеты в музеи"]
+      },
+      "program": [
+        {
+          "day": 1,
+          "text": {
+            "en": "Arrival in Amsterdam, canal walk.",
+            "uk": "Приїзд до Амстердама, прогулянка каналами.",
+            "ru": "Прилёт в Амстердам, прогулка по каналам."
+          }
+        },
+        {
+          "day": 2,
+          "text": {
+            "en": "Canal cruise and city bikes.",
+            "uk": "Круїз каналами та велосипеди.",
+            "ru": "Круиз по каналам и велосипеды."
+          }
+        },
+        {
+          "day": 3,
+          "text": {
+            "en": "Keukenhof gardens day.",
+            "uk": "День у Кекенхофі.",
+            "ru": "День в Кекенхофе."
+          }
+        },
+        {
+          "day": 4,
+          "text": {
+            "en": "Departure.",
+            "uk": "Від'їзд.",
+            "ru": "Отъезд."
+          }
+        }
+      ],
+      "images": [
+        "./assets/images/tours/Netherlands_Tulip.jpg",
+        "./assets/images/gallery/Netherlands/netherlands_001.jpg",
+        "./assets/images/gallery/Netherlands/netherlands_002.jpg",
+        "./assets/images/gallery/Netherlands/netherlands_003.jpg",
+        "./assets/images/gallery/Netherlands/netherlands_004.jpg",
+        "./assets/images/gallery/Netherlands/netherlands_005.jpg",
+        "./assets/images/gallery/Netherlands/netherlands_006.jpg"
+      ],
+      "travelerCapacity": 20,
+      "busyPeriods": [
+        {
+          "start": "2025-05-10",
+          "end": "2025-05-16"
+        },
+        {
+          "start": "2025-06-20",
+          "end": "2025-06-27"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-12"
+        }
+      ]
+    }
+  ]
+}

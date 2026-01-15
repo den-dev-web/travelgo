@@ -1,0 +1,713 @@
+{
+  "ui": {
+    "nav": {
+      "en": {
+        "destinations": "Destinations",
+        "tours": "Tours",
+        "why": "Why TravelGo",
+        "gallery": "Gallery",
+        "reviews": "Reviews",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "cta": "Plan my trip"
+      },
+      "uk": {
+        "destinations": "Напрямки",
+        "tours": "Тури",
+        "why": "Чому TravelGo",
+        "gallery": "Галерея",
+        "reviews": "Відгуки",
+        "faq": "FAQ",
+        "contact": "Контакти",
+        "cta": "Підібрати тур"
+      },
+      "ru": {
+        "destinations": "Направления",
+        "tours": "Туры",
+        "why": "Почему TravelGo",
+        "gallery": "Галерея",
+        "reviews": "Отзывы",
+        "faq": "FAQ",
+        "contact": "Контакты",
+        "cta": "Подобрать тур"
+      }
+    },
+    "hero": {
+      "en": {
+        "eyebrow": "Tours 2025",
+        "title": "Europe, curated for effortless travel",
+        "subtitle": "Plan a trip that feels like a story, not a checklist.",
+        "ctaPrimary": "Find my tour",
+        "ctaSecondary": "View top destinations",
+        "highlights": [
+          { "value": "24 destinations", "label": "across Europe and islands" },
+          { "value": "from 4 days", "label": "weekends and full vacations" },
+          { "value": "+15%", "label": "early booking discount" }
+        ]
+      },
+      "uk": {
+        "eyebrow": "Тури 2025",
+        "title": "Європа, підібрана без зайвих клопотів",
+        "subtitle": "Подорож, що відчувається як історія, а не список справ.",
+        "ctaPrimary": "Підібрати тур",
+        "ctaSecondary": "Популярні напрямки",
+        "highlights": [
+          { "value": "24 напрямки", "label": "в Європі та на островах" },
+          { "value": "від 4 днів", "label": "формат вікендів та відпусток" },
+          { "value": "+15%", "label": "знижка за раннє бронювання" }
+        ]
+      },
+      "ru": {
+        "eyebrow": "Туры 2025",
+        "title": "Европа без лишних забот",
+        "subtitle": "Путешествие как история, а не список дел.",
+        "ctaPrimary": "Подобрать тур",
+        "ctaSecondary": "Популярные направления",
+        "highlights": [
+          { "value": "24 направления", "label": "в Европе и на островах" },
+          { "value": "от 4 дней", "label": "формат уик-эндов и отпусков" },
+          { "value": "+15%", "label": "скидка при раннем бронировании" }
+        ]
+      }
+    },
+    "search": {
+      "en": {
+        "eyebrow": "Tour search",
+        "title": "Where to next?",
+        "destination": "Destination",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "travelers": "Travelers",
+        "submit": "Find trips",
+        "helper": "Flexible dates? We’ll still find the best match.",
+        "destinationPlaceholder": "Choose a country",
+        "datePlaceholder": "Select dates",
+        "peoplePlaceholder": "2 travelers",
+        "modalTitle": "Travel dates",
+        "modalApply": "Done",
+        "modalClose": "Close",
+        "selectDestinationTitle": "Destination",
+        "selectPeopleTitle": "Travelers",
+        "selectEmpty": "No options available.",
+        "statusAccepted": "Details saved. Opening catalog."
+      },
+      "uk": {
+        "eyebrow": "Пошук туру",
+        "title": "Куди поїдемо?",
+        "destination": "Напрямок",
+        "startDate": "Дата старту",
+        "endDate": "Дата завершення",
+        "travelers": "Мандрівники",
+        "submit": "Знайти тури",
+        "helper": "Гнучкі дати? Підберемо найкраще.",
+        "destinationPlaceholder": "Оберіть країну",
+        "datePlaceholder": "Оберіть дати",
+        "peoplePlaceholder": "2 мандрівники",
+        "modalTitle": "Дати подорожі",
+        "modalApply": "Готово",
+        "modalClose": "Закрити",
+        "selectDestinationTitle": "Напрямок",
+        "selectPeopleTitle": "Мандрівники",
+        "selectEmpty": "Немає доступних варіантів.",
+        "statusAccepted": "Параметри прийнято. Переходимо до каталогу."
+      },
+      "ru": {
+        "eyebrow": "Поиск тура",
+        "title": "Куда поедем?",
+        "destination": "Направление",
+        "startDate": "Дата начала",
+        "endDate": "Дата окончания",
+        "travelers": "Путешественники",
+        "submit": "Найти туры",
+        "helper": "Гибкие даты? Подберём лучший вариант.",
+        "destinationPlaceholder": "Выберите страну",
+        "datePlaceholder": "Выберите даты",
+        "peoplePlaceholder": "2 человека",
+        "modalTitle": "Период тура",
+        "modalApply": "Готово",
+        "modalClose": "Закрыть",
+        "selectDestinationTitle": "Направление",
+        "selectPeopleTitle": "Путешественники",
+        "selectEmpty": "Нет доступных вариантов.",
+        "statusAccepted": "Параметры приняты. Переходим к каталогу."
+      }
+    },
+    "filters": {
+      "en": {
+        "title": "Filters",
+        "country": "Country",
+        "price": "Price",
+        "duration": "Duration",
+        "rating": "Rating",
+        "period": "Travel dates",
+        "people": "Travelers",
+        "clear": "Clear filters",
+        "empty": "No trips match your filters. Try expanding the budget or dates.",
+        "modalTitle": "Catalog filters",
+        "apply": "Apply",
+        "priceLabel": "Price (EUR)",
+        "anyCountry": "Any country",
+        "anyDuration": "Any duration",
+        "anyPeople": "Any number",
+        "anyRating": "Any rating",
+        "periodPlaceholder": "Select dates",
+        "daysOptions": ["4-6 days", "7-8 days", "9+ days"],
+        "peopleOptions": ["1 traveler", "2 travelers", "3 travelers", "4 travelers"],
+        "ratingOptions": ["4.6+", "4.8+"],
+        "summaryAll": "All tours",
+        "priceTo": "Up to {value} EUR",
+        "clearFilterLabel": "Remove filter: {label}"
+      },
+      "uk": {
+        "title": "Фільтри",
+        "country": "Країна",
+        "price": "Ціна",
+        "duration": "Тривалість",
+        "rating": "Рейтинг",
+        "period": "Дати подорожі",
+        "people": "Мандрівники",
+        "clear": "Скинути фільтри",
+        "empty": "Нічого не знайдено. Спробуйте інші дати або бюджет.",
+        "modalTitle": "Фільтри каталогу",
+        "apply": "Застосувати",
+        "priceLabel": "Ціна (EUR)",
+        "anyCountry": "Будь-яка",
+        "anyDuration": "Будь-яка",
+        "anyPeople": "Будь-яка кількість",
+        "anyRating": "Будь-який",
+        "periodPlaceholder": "Оберіть дати",
+        "daysOptions": ["4-6 днів", "7-8 днів", "9+ днів"],
+        "peopleOptions": ["1 людина", "2 людини", "3 людини", "4 людини"],
+        "ratingOptions": ["4.6+", "4.8+"],
+        "summaryAll": "Усі тури",
+        "priceTo": "До {value} EUR",
+        "clearFilterLabel": "Прибрати фільтр: {label}"
+      },
+      "ru": {
+        "title": "Фильтры",
+        "country": "Страна",
+        "price": "Цена",
+        "duration": "Длительность",
+        "rating": "Рейтинг",
+        "period": "Период тура",
+        "people": "Путешественники",
+        "clear": "Сбросить фильтры",
+        "empty": "Ничего не найдено. Попробуйте изменить даты или бюджет.",
+        "modalTitle": "Фильтры каталога",
+        "apply": "Применить",
+        "priceLabel": "Цена (EUR)",
+        "anyCountry": "Любая",
+        "anyDuration": "Любая",
+        "anyPeople": "Любое количество",
+        "anyRating": "Любой",
+        "periodPlaceholder": "Выберите даты",
+        "daysOptions": ["4-6 дней", "7-8 дней", "9+ дней"],
+        "peopleOptions": ["1 человек", "2 человека", "3 человека", "4 человека"],
+        "ratingOptions": ["4.6+", "4.8+"],
+        "summaryAll": "Все туры",
+        "priceTo": "До {value} EUR",
+        "clearFilterLabel": "Удалить фильтр: {label}"
+      }
+    },
+    "catalog": {
+      "en": {
+        "eyebrow": "Catalog",
+        "title": "Choose your dream trip",
+        "filtersButton": "Filters",
+        "results": "Found {count} tours",
+        "loading": "Loading...",
+        "error": "Couldn't load tours. Try again later."
+      },
+      "uk": {
+        "eyebrow": "Каталог",
+        "title": "Оберіть подорож мрії",
+        "filtersButton": "Фільтри",
+        "results": "Знайдено {count} турів",
+        "loading": "Завантаження...",
+        "error": "Не вдалося завантажити тури. Спробуйте пізніше."
+      },
+      "ru": {
+        "eyebrow": "Каталог",
+        "title": "Выберите путешествие мечты",
+        "filtersButton": "Фильтры",
+        "results": "Найдено {count} туров",
+        "loading": "Загрузка...",
+        "error": "Не удалось загрузить туры. Попробуйте позже."
+      }
+    },
+    "destinations": {
+      "en": {
+        "eyebrow": "Top destinations",
+        "title": "Most booked right now"
+      },
+      "uk": {
+        "eyebrow": "Популярні напрямки",
+        "title": "Куди найчастіше бронюють"
+      },
+      "ru": {
+        "eyebrow": "Популярные направления",
+        "title": "Куда чаще всего бронируют"
+      }
+    },
+    "advantages": {
+      "en": {
+        "eyebrow": "Benefits",
+        "title": "Why TravelGo",
+        "cards": [
+          {
+            "title": "Curated itineraries",
+            "text": "Every trip includes the best spots and a smart pace."
+          },
+          {
+            "title": "24/7 support",
+            "text": "We stay close before, during, and after the trip."
+          },
+          {
+            "title": "Comfortable hotels",
+            "text": "We pick 3-4* stays near key locations."
+          }
+        ]
+      },
+      "uk": {
+        "eyebrow": "Переваги",
+        "title": "Чому TravelGo",
+        "cards": [
+          {
+            "title": "Ретельно підібрані маршрути",
+            "text": "Кожен тур включає найкращі локації та оптимальний темп."
+          },
+          {
+            "title": "Підтримка 24/7",
+            "text": "Залишаємось на зв'язку до, під час і після подорожі."
+          },
+          {
+            "title": "Комфортні готелі",
+            "text": "Обираємо 3-4* готелі поруч із ключовими точками."
+          }
+        ]
+      },
+      "ru": {
+        "eyebrow": "Преимущества",
+        "title": "Почему TravelGo",
+        "cards": [
+          {
+            "title": "Тщательно собранные маршруты",
+            "text": "Каждый тур включает лучшие локации и оптимальный тайминг."
+          },
+          {
+            "title": "Поддержка 24/7",
+            "text": "Остаёмся на связи до, во время и после поездки."
+          },
+          {
+            "title": "Комфортные отели",
+            "text": "Выбираем 3-4* отели рядом с ключевыми точками маршрута."
+          }
+        ]
+      }
+    },
+    "why": {
+      "en": {
+        "eyebrow": "Why choose us",
+        "title": "Service you can feel",
+        "cards": [
+          {
+            "title": "Premium guidance",
+            "text": "Detailed guides, maps, and checklists for a calm trip."
+          },
+          {
+            "title": "Smart picks",
+            "text": "We compare prices and seasons to offer the best."
+          },
+          {
+            "title": "Flexible booking",
+            "text": "Easy date changes and quick adjustments."
+          }
+        ]
+      },
+      "uk": {
+        "eyebrow": "Чому обирають нас",
+        "title": "Сервіс, який відчувається",
+        "cards": [
+          {
+            "title": "Преміум-навігація",
+            "text": "Детальні гіди, карти та чек-листи для спокійної подорожі."
+          },
+          {
+            "title": "Розумні підбірки",
+            "text": "Порівнюємо ціни та сезони, щоб запропонувати найкраще."
+          },
+          {
+            "title": "Гнучке бронювання",
+            "text": "Є можливість переносів і швидких змін."
+          }
+        ]
+      },
+      "ru": {
+        "eyebrow": "Почему выбирают нас",
+        "title": "Сервис, который чувствуется",
+        "cards": [
+          {
+            "title": "Премиум-навигация",
+            "text": "Подробные гайды, карты и чек-листы для спокойной поездки."
+          },
+          {
+            "title": "Умные подборки",
+            "text": "Мы сравниваем цены и сезоны, чтобы предложить лучшее."
+          },
+          {
+            "title": "Гибкое бронирование",
+            "text": "Есть возможность переносов и быстрых изменений."
+          }
+        ]
+      }
+    },
+    "gallery": {
+      "en": {
+        "eyebrow": "Gallery",
+        "title": "Travel in frames"
+      },
+      "uk": {
+        "eyebrow": "Галерея",
+        "title": "Подорожі в кадрах"
+      },
+      "ru": {
+        "eyebrow": "Галерея",
+        "title": "Путешествия в кадрах"
+      }
+    },
+    "reviews": {
+      "en": {
+        "eyebrow": "Reviews",
+        "title": "Stories from our travelers",
+        "prev": "Previous",
+        "next": "Next",
+        "ratingLabel": "Rating {value} out of 5"
+      },
+      "uk": {
+        "eyebrow": "Відгуки",
+        "title": "Історії наших мандрівників",
+        "prev": "Назад",
+        "next": "Вперед",
+        "ratingLabel": "Рейтинг {value} з 5"
+      },
+      "ru": {
+        "eyebrow": "Отзывы",
+        "title": "Истории наших путешественников",
+        "prev": "Назад",
+        "next": "Вперёд",
+        "ratingLabel": "Рейтинг {value} из 5"
+      }
+    },
+    "faq": {
+      "en": {
+        "eyebrow": "FAQ",
+        "title": "Frequently asked questions"
+      },
+      "uk": {
+        "eyebrow": "FAQ",
+        "title": "Поширені питання"
+      },
+      "ru": {
+        "eyebrow": "FAQ",
+        "title": "Частые вопросы"
+      }
+    },
+    "subscribe": {
+      "en": {
+        "eyebrow": "Newsletter",
+        "title": "Inspiration and best prices once a week"
+      },
+      "uk": {
+        "eyebrow": "Розсилка",
+        "title": "Натхнення та найкращі ціни щотижня"
+      },
+      "ru": {
+        "eyebrow": "Рассылка",
+        "title": "Вдохновение и лучшие цены раз в неделю"
+      }
+    },
+    "tour": {
+      "en": {
+        "metaPrice": "Price",
+        "metaDays": "Duration",
+        "metaDifficulty": "Difficulty",
+        "prev": "Back",
+        "next": "Next",
+        "dayLabel": "Day {day}",
+        "programEyebrow": "Tour program",
+        "programTitle": "Every day is an experience",
+        "includesEyebrow": "Included",
+        "includesTitle": "What's included",
+        "includedLabel": "Included",
+        "excludedLabel": "Not included",
+        "excludedTitle": "What's not included",
+        "galleryEyebrow": "Photo gallery",
+        "galleryTitle": "Best trip moments",
+        "bookingEyebrow": "Booking",
+        "bookingTitle": "Book the tour",
+        "bookingIntro": "Leave your contacts and we’ll confirm within 24 hours.",
+        "bookingCta": "Quick booking",
+        "emptyEyebrow": "Tour not found",
+        "emptyTitle": "Looks like this trip is missing",
+        "emptyText": "Try another tour or return to the catalog.",
+        "emptyCta": "Back to home"
+      },
+      "uk": {
+        "metaPrice": "Ціна",
+        "metaDays": "Тривалість",
+        "metaDifficulty": "Складність",
+        "prev": "Назад",
+        "next": "Вперед",
+        "dayLabel": "День {day}",
+        "programEyebrow": "Програма туру",
+        "programTitle": "Кожен день — враження",
+        "includesEyebrow": "Включено",
+        "includesTitle": "Що входить",
+        "includedLabel": "Включено",
+        "excludedLabel": "Не включено",
+        "excludedTitle": "Що оплачується окремо",
+        "galleryEyebrow": "Фото-галерея",
+        "galleryTitle": "Найкращі кадри подорожі",
+        "bookingEyebrow": "Бронювання",
+        "bookingTitle": "Забронювати тур",
+        "bookingIntro": "Залиште контакти — підтвердимо протягом 24 годин.",
+        "bookingCta": "Швидке бронювання",
+        "emptyEyebrow": "Тур не знайдено",
+        "emptyTitle": "Схоже, такої подорожі немає",
+        "emptyText": "Спробуйте інший тур або поверніться до каталогу.",
+        "emptyCta": "На головну"
+      },
+      "ru": {
+        "metaPrice": "Цена",
+        "metaDays": "Длительность",
+        "metaDifficulty": "Сложность",
+        "prev": "Назад",
+        "next": "Вперёд",
+        "dayLabel": "День {day}",
+        "programEyebrow": "Программа тура",
+        "programTitle": "Каждый день — впечатления",
+        "includesEyebrow": "Включено",
+        "includesTitle": "Что входит",
+        "includedLabel": "Включено",
+        "excludedLabel": "Не включено",
+        "excludedTitle": "Что оплачивается отдельно",
+        "galleryEyebrow": "Фото-галерея",
+        "galleryTitle": "Лучшие кадры путешествия",
+        "bookingEyebrow": "Бронирование",
+        "bookingTitle": "Забронировать тур",
+        "bookingIntro": "Оставьте контакты — менеджер свяжется и подтвердит даты в течение 24 часов.",
+        "bookingCta": "Быстрое бронирование",
+        "emptyEyebrow": "Тур не найден",
+        "emptyTitle": "Похоже, такой поездки нет",
+        "emptyText": "Попробуйте другой тур или вернитесь в каталог.",
+        "emptyCta": "На главную"
+      }
+    },
+    "footer": {
+      "en": {
+        "tagline": "Routes you'll want to repeat.",
+        "companyTitle": "Company",
+        "supportTitle": "Support",
+        "contactTitle": "Contact",
+        "companyLinks": ["Benefits", "Why us", "Gallery"],
+        "supportLinks": ["FAQ", "Reviews", "Newsletter"],
+        "backToTop": "Back to top",
+        "rights": "© 2025 TravelGo. All rights reserved."
+      },
+      "uk": {
+        "tagline": "Маршрути, які хочеться повторити.",
+        "companyTitle": "Компанія",
+        "supportTitle": "Підтримка",
+        "contactTitle": "Зв'язатися",
+        "companyLinks": ["Переваги", "Чому ми", "Галерея"],
+        "supportLinks": ["FAQ", "Відгуки", "Розсилка"],
+        "backToTop": "Нагору",
+        "rights": "© 2025 TravelGo. Всі права захищені."
+      },
+      "ru": {
+        "tagline": "Маршруты, которые хочется повторить.",
+        "companyTitle": "Компания",
+        "supportTitle": "Поддержка",
+        "contactTitle": "Связаться",
+        "companyLinks": ["Преимущества", "Почему мы", "Галерея"],
+        "supportLinks": ["FAQ", "Отзывы", "Рассылка"],
+        "backToTop": "Наверх",
+        "rights": "© 2025 TravelGo. Все права защищены."
+      }
+    },
+    "messages": {
+      "en": {
+        "required": "This field is required.",
+        "dateOrder": "End date is before the start date.",
+        "formInvalid": "Please complete the form correctly.",
+        "emailInvalid": "Enter a valid email."
+      },
+      "uk": {
+        "required": "Поле обов'язкове.",
+        "dateOrder": "Дата завершення раніше дати початку.",
+        "formInvalid": "Заповніть форму коректно.",
+        "emailInvalid": "Введіть коректний email."
+      },
+      "ru": {
+        "required": "Поле обязательно.",
+        "dateOrder": "Дата окончания раньше даты начала.",
+        "formInvalid": "Заполните форму корректно.",
+        "emailInvalid": "Введите корректный email."
+      }
+    },
+    "tourCard": {
+      "en": { "from": "from", "details": "View details", "days": "days" },
+      "uk": { "from": "від", "details": "Детальніше", "days": "днів" },
+      "ru": { "from": "от", "details": "Подробнее", "days": "дней" }
+    },
+    "booking": {
+      "en": {
+        "title": "Quick booking",
+        "name": "Full name",
+        "phone": "Phone",
+        "email": "Email",
+        "dates": "Travel dates",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "travelers": "Travelers",
+        "submit": "Request booking",
+        "loading": "Sending...",
+        "success": "Thanks! We’ll confirm within 24h.",
+        "error": "Oops, something went wrong. Try again."
+      },
+      "uk": {
+        "title": "Швидке бронювання",
+        "name": "Ім'я та прізвище",
+        "phone": "Телефон",
+        "email": "Email",
+        "dates": "Дати подорожі",
+        "startDate": "Дата початку",
+        "endDate": "Дата завершення",
+        "travelers": "Кількість людей",
+        "submit": "Запит на бронювання",
+        "loading": "Надсилаємо...",
+        "success": "Дякуємо! Підтвердимо протягом 24 годин.",
+        "error": "Помилка. Спробуйте ще раз."
+      },
+      "ru": {
+        "title": "Быстрое бронирование",
+        "name": "Имя и фамилия",
+        "phone": "Телефон",
+        "email": "Email",
+        "dates": "Даты поездки",
+        "startDate": "Дата начала",
+        "endDate": "Дата окончания",
+        "travelers": "Количество человек",
+        "submit": "Запросить бронирование",
+        "loading": "Отправка...",
+        "success": "Спасибо! Подтвердим в течение 24 часов.",
+        "error": "Ошибка. Попробуйте снова."
+      }
+    },
+    "newsletter": {
+      "en": {
+        "title": "Get weekend escapes in your inbox",
+        "email": "Email",
+        "submit": "Subscribe",
+        "loading": "Sending...",
+        "success": "Subscribed! Check your email for a welcome gift.",
+        "error": "Couldn’t subscribe. Try again."
+      },
+      "uk": {
+        "title": "Отримуйте ідеї для вікендів",
+        "email": "Email",
+        "submit": "Підписатися",
+        "loading": "Надсилаємо...",
+        "success": "Готово! Перевірте пошту.",
+        "error": "Не вдалося підписатися. Спробуйте ще раз."
+      },
+      "ru": {
+        "title": "Подборки уикендов в вашей почте",
+        "email": "Email",
+        "submit": "Подписаться",
+        "loading": "Отправка...",
+        "success": "Готово! Проверьте почту.",
+        "error": "Не удалось подписаться. Попробуйте снова."
+      }
+    },
+    "theme": {
+      "en": "Theme",
+      "uk": "Тема",
+      "ru": "Тема"
+    },
+    "howItWorks": {
+      "en": { "title": "How it works" },
+      "uk": { "title": "Як це працює" },
+      "ru": { "title": "Как это работает" }
+    },
+    "whyUs": {
+      "en": {
+        "title": "Why travelers choose TravelGo",
+        "items": [
+          "Transparent pricing, no hidden fees",
+          "Verified hotels in walkable locations",
+          "Local guides with real expertise",
+          "Flexible date changes",
+          "24/7 traveler support"
+        ]
+      },
+      "uk": {
+        "title": "Чому обирають TravelGo",
+        "items": [
+          "Прозорі ціни без прихованих платежів",
+          "Перевірені готелі в зручних локаціях",
+          "Місцеві гіди з досвідом",
+          "Гнучкі зміни дат",
+          "Підтримка 24/7"
+        ]
+      },
+      "ru": {
+        "title": "Почему выбирают TravelGo",
+        "items": [
+          "Прозрачные цены без скрытых платежей",
+          "Проверенные отели в удобных локациях",
+          "Местные гиды с опытом",
+          "Гибкая смена дат",
+          "Поддержка 24/7"
+        ]
+      }
+    }
+  },
+  "labels": {
+    "localeNames": {
+      "en": "EN",
+      "uk": "UK",
+      "ru": "RU"
+    },
+    "currencyNames": {
+      "uah": { "en": "UAH", "uk": "UAH", "ru": "UAH" },
+      "eur": { "en": "EUR", "uk": "EUR", "ru": "EUR" }
+    },
+    "currencySymbols": {
+      "uah": "₴",
+      "eur": "€"
+    },
+    "dateFormat": {
+      "en": "DD MMM YYYY",
+      "uk": "DD.MM.YYYY",
+      "ru": "DD.MM.YYYY"
+    },
+    "difficulty": {
+      "easy": { "en": "Easy", "uk": "Легкий", "ru": "Легкий" },
+      "moderate": { "en": "Moderate", "uk": "Середній", "ru": "Средний" },
+      "hard": { "en": "Hard", "uk": "Складний", "ru": "Сложный" }
+    },
+    "badges": {
+      "popular": { "en": "Popular", "uk": "Популярно", "ru": "Популярно" },
+      "best-value": { "en": "Best value", "uk": "Суперціна", "ru": "Супер-цена" },
+      "romantic": { "en": "Romantic", "uk": "Романтично", "ru": "Романтично" },
+      "new": { "en": "New", "uk": "Новинка", "ru": "Новинка" },
+      "top-rated": { "en": "Top rated", "uk": "Топ рейтинг", "ru": "Топ рейтинг" },
+      "adventure": { "en": "Adventure", "uk": "Пригода", "ru": "Приключение" },
+      "cultural": { "en": "Cultural", "uk": "Культурно", "ru": "Культурно" },
+      "seasonal": { "en": "Seasonal", "uk": "Сезонно", "ru": "Сезонно" },
+      "city-break": { "en": "City break", "uk": "Місто", "ru": "Город" },
+      "family": { "en": "Family", "uk": "Сімейний", "ru": "Семейный" }
+    }
+  }
+}

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="./assets/icons/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TravelGo — Tour</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="c-header" id="top">
+      <div class="o-container c-header__inner">
+        <a class="c-header__logo" href="./index.html">TravelGo</a>
+        <div class="c-header__right">
+          <nav class="c-header__nav" aria-label="Основная навигация">
+            <a href="./index.html#catalog">Каталог</a>
+            <a href="./index.html#reviews">Отзывы</a>
+            <a href="./index.html#faq">FAQ</a>
+            <a class="c-button c-button--primary" href="./index.html#search"
+              >Подобрать тур</a
+            >
+          </nav>
+          <div class="c-header__controls" aria-label="Настройки">
+            <button
+              class="c-header__control c-header__control--icon-only"
+              type="button"
+              data-theme-toggle
+              aria-pressed="false"
+              aria-label="Переключить тему"
+            >
+              <span
+                class="c-header__control-icon"
+                data-theme-icon
+                aria-hidden="true"
+                >☀</span
+              >
+            </button>
+            <div class="c-lang" data-lang>
+              <button
+                class="c-header__control c-header__control--icon-only"
+                type="button"
+                data-lang-toggle
+                aria-expanded="false"
+                aria-haspopup="true"
+                aria-label="Вибрати мову"
+              >
+                <span
+                  class="c-header__control-icon"
+                  data-lang-icon
+                  aria-hidden="true"
+                  >UK</span
+                >
+              </button>
+              <div class="c-lang__menu" data-lang-menu aria-hidden="true">
+                <button
+                  class="c-lang__option"
+                  type="button"
+                  data-lang-option="uk"
+                >
+                  Українська
+                </button>
+                <button
+                  class="c-lang__option"
+                  type="button"
+                  data-lang-option="en"
+                >
+                  English
+                </button>
+                <button
+                  class="c-lang__option"
+                  type="button"
+                  data-lang-option="ru"
+                >
+                  Русский
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="c-header__toggle"
+            type="button"
+            data-menu-button
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Открыть меню"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="c-modal c-modal--drawer"
+      data-menu
+      id="mobile-menu"
+      aria-hidden="true"
+    >
+      <div class="c-modal__overlay" data-menu-overlay></div>
+      <div
+        class="c-modal__panel"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Мобильное меню"
+      >
+        <div class="c-modal__header c-modal__header--right">
+          <button
+            class="c-button c-button--ghost"
+            type="button"
+            data-menu-close
+            aria-label="Закрыть"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <nav class="c-modal__nav" aria-label="Мобильная навигация">
+          <a href="./index.html#catalog">Каталог</a>
+          <a href="./index.html#gallery">Галерея</a>
+          <a href="./index.html#reviews">Отзывы</a>
+          <a href="./index.html#faq">FAQ</a>
+          <a class="c-button c-button--secondary" href="./index.html#search"
+            >Подобрать тур</a
+          >
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section class="c-tour-hero c-section c-reveal">
+        <div class="o-container c-tour-hero__inner">
+          <div class="c-tour-hero__gallery">
+            <div
+              class="c-tour-hero__media media-frame"
+              style="--media-ratio: 4 / 3"
+            >
+              <picture data-tour-hero-media></picture>
+            </div>
+            <div class="c-tour-hero__controls">
+              <button
+                class="c-button c-button--ghost"
+                type="button"
+                data-tour-prev
+              >
+                Назад
+              </button>
+              <button
+                class="c-button c-button--ghost"
+                type="button"
+                data-tour-next
+              >
+                Вперёд
+              </button>
+            </div>
+            <div class="c-tour-hero__thumbs" data-tour-hero-thumbs></div>
+          </div>
+          <div class="c-tour-hero__content">
+            <div class="c-tour-hero__badges" data-tour-badges></div>
+            <h1 class="c-tour-hero__title" data-tour-title>Тур</h1>
+            <p class="c-tour-hero__meta" data-tour-country></p>
+            <p class="c-tour-hero__description" data-tour-description></p>
+            <div class="c-tour-hero__info">
+              <div>
+                <span class="c-tour-hero__label">Цена</span>
+                <div class="c-tour-hero__value" data-tour-price></div>
+              </div>
+              <div>
+                <span class="c-tour-hero__label">Длительность</span>
+                <div class="c-tour-hero__value" data-tour-days></div>
+              </div>
+              <div>
+                <span class="c-tour-hero__label">Сложность</span>
+                <div class="c-tour-hero__value" data-tour-difficulty></div>
+              </div>
+            </div>
+            <div class="c-tour-hero__cta">
+              <a class="c-button c-button--primary" href="#booking"
+                >Быстрое бронирование</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-section c-reveal" id="program">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Программа тура</p>
+            <h2 class="c-section__title">Каждый день — впечатления</h2>
+          </div>
+          <div
+            class="c-accordion"
+            data-accordion="single"
+            data-tour-program
+          ></div>
+        </div>
+      </section>
+
+      <section class="c-section c-reveal" id="includes">
+        <div class="o-container c-tour-includes">
+          <div>
+            <div class="c-section__header">
+              <p class="c-section__eyebrow">Включено</p>
+              <h2 class="c-section__title">Что входит</h2>
+            </div>
+            <ul class="c-tour-list" data-tour-included></ul>
+          </div>
+          <div>
+            <div class="c-section__header">
+              <p class="c-section__eyebrow">Не включено</p>
+              <h2 class="c-section__title">Что оплачивается отдельно</h2>
+            </div>
+            <ul class="c-tour-list" data-tour-excluded></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-section c-reveal" id="tour-gallery">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Фото-галерея</p>
+            <h2 class="c-section__title">Лучшие кадры путешествия</h2>
+          </div>
+          <div class="c-tour-gallery" data-tour-gallery></div>
+        </div>
+      </section>
+
+      <section class="c-section c-reveal" id="booking">
+        <div class="o-container c-booking">
+          <div>
+            <div class="c-section__header">
+              <p class="c-section__eyebrow">Бронирование</p>
+              <h2 class="c-section__title">Забронировать тур</h2>
+            </div>
+            <p>
+              Оставьте контакты — менеджер свяжется и подтвердит даты в течение
+              24 часов.
+            </p>
+          </div>
+          <form class="c-booking__form" data-booking-form novalidate>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Имя</span>
+              <input
+                class="c-field__control"
+                type="text"
+                name="name"
+                required
+                aria-describedby="booking-name-error"
+              />
+              <span class="c-field__error" id="booking-name-error"></span>
+            </label>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Телефон</span>
+              <input
+                class="c-field__control"
+                type="tel"
+                name="phone"
+                required
+                aria-describedby="booking-phone-error"
+              />
+              <span class="c-field__error" id="booking-phone-error"></span>
+            </label>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Email</span>
+              <input
+                class="c-field__control"
+                type="email"
+                name="email"
+                required
+                aria-describedby="booking-email-error"
+              />
+              <span class="c-field__error" id="booking-email-error"></span>
+            </label>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Дата начала</span>
+              <input
+                class="c-field__control"
+                type="date"
+                name="start"
+                required
+                aria-describedby="booking-start-error"
+              />
+              <span class="c-field__error" id="booking-start-error"></span>
+            </label>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Дата окончания</span>
+              <input
+                class="c-field__control"
+                type="date"
+                name="end"
+                required
+                aria-describedby="booking-end-error"
+              />
+              <span class="c-field__error" id="booking-end-error"></span>
+            </label>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Путешественники</span>
+              <div class="c-select" data-select="people" data-default-value="2">
+                <button
+                  class="c-select__trigger"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                  data-select-trigger
+                >
+                  <span class="c-select__value" data-select-value
+                    >2 человека</span
+                  >
+                  <span class="c-select__icon" aria-hidden="true"></span>
+                </button>
+                <input
+                  type="hidden"
+                  name="people"
+                  value="2"
+                  data-select-input
+                />
+              </div>
+            </label>
+            <button class="c-button c-button--primary" type="submit">
+              Отправить заявку
+            </button>
+            <p
+              class="c-booking__status"
+              aria-live="polite"
+              data-booking-status
+            ></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="c-section" data-tour-empty hidden>
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Тур не найден</p>
+            <h2 class="c-section__title">Похоже, такой поездки нет</h2>
+          </div>
+          <p>Попробуйте выбрать другой тур или вернуться на главную.</p>
+          <a class="c-button c-button--primary" href="./index.html"
+            >На главную</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="c-modal c-modal--sheet c-select-modal"
+      data-select-modal
+      aria-hidden="true"
+    >
+      <div class="c-modal__overlay" data-select-overlay></div>
+      <div
+        class="c-modal__panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="select-modal-title"
+      >
+        <div class="c-modal__header c-select-modal__header">
+          <h3
+            class="c-select-modal__title"
+            id="select-modal-title"
+            data-select-title
+          ></h3>
+          <button
+            class="c-select-modal__close"
+            type="button"
+            data-select-close
+            aria-label="Закрыть"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="c-select-modal__list" data-select-list></div>
+      </div>
+    </div>
+
+    <footer class="c-footer" id="footer">
+      <div class="o-container c-footer__inner">
+        <div>
+          <div class="c-footer__brand">TravelGo</div>
+          <p>Маршруты, которые хочется повторить.</p>
+        </div>
+        <div>
+          <h3 class="c-footer__title">Компания</h3>
+          <ul class="c-footer__list">
+            <li><a href="./index.html#advantages">Преимущества</a></li>
+            <li><a href="./index.html#why">Почему мы</a></li>
+            <li><a href="./index.html#gallery">Галерея</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="c-footer__title">Поддержка</h3>
+          <ul class="c-footer__list">
+            <li><a href="./index.html#faq">FAQ</a></li>
+            <li><a href="./index.html#reviews">Отзывы</a></li>
+            <li><a href="./index.html#subscribe">Рассылка</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="c-footer__title">Связаться</h3>
+          <ul class="c-footer__list">
+            <li><a href="mailto:hello@travelgo.com">hello@travelgo.com</a></li>
+            <li><a href="tel:+380001234567">+38 (000) 123-45-67</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="o-container c-footer__bottom">
+        <span>© 2025 TravelGo. Все права защищены.</span>
+        <a
+          class="c-button c-button--ghost c-footer__to-top"
+          href="#top"
+          data-back-to-top
+        >
+          Наверх
+        </a>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

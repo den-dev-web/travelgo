@@ -1,0 +1,83 @@
+{
+  "heroVideos": [
+    {
+      "id": "hero-01",
+      "path": "assets/video/hero-01",
+      "formats": ["mp4", "webm"],
+      "durationSeconds": "8-12",
+      "loop": true,
+      "subject": "Aerial coastline over Europe at sunrise"
+    },
+    {
+      "id": "hero-02",
+      "path": "assets/video/hero-02",
+      "formats": ["mp4", "webm"],
+      "durationSeconds": "8-12",
+      "loop": true,
+      "subject": "Alps panorama with moving clouds"
+    },
+    {
+      "id": "hero-03",
+      "path": "assets/video/hero-03",
+      "formats": ["mp4", "webm"],
+      "durationSeconds": "8-12",
+      "loop": true,
+      "subject": "European city night timelapse"
+    }
+  ],
+  "heroImages": [
+    {
+      "id": "hero-image-01",
+      "path": "assets/images/hero/hero-01.jpg",
+      "subject": "Mediterranean coastline"
+    },
+    {
+      "id": "hero-image-02",
+      "path": "assets/images/hero/hero-02.jpg",
+      "subject": "Alpine lake with mountains"
+    },
+    {
+      "id": "hero-image-03",
+      "path": "assets/images/hero/hero-03.jpg",
+      "subject": "European old town skyline"
+    }
+  ],
+  "tourCards": [
+    { "id": "tour-01", "path": "assets/images/tours/tour-01.jpg", "subject": "Amalfi Coast cliff village" },
+    { "id": "tour-02", "path": "assets/images/tours/tour-02.jpg", "subject": "Provence lavender fields" },
+    { "id": "tour-03", "path": "assets/images/tours/tour-03.jpg", "subject": "Swiss Alps lake panorama" },
+    { "id": "tour-04", "path": "assets/images/tours/tour-04.jpg", "subject": "Lisbon tram street" },
+    { "id": "tour-05", "path": "assets/images/tours/tour-05.jpg", "subject": "Barcelona architecture and coast" },
+    { "id": "tour-06", "path": "assets/images/tours/tour-06.jpg", "subject": "Santorini white village" },
+    { "id": "tour-07", "path": "assets/images/tours/tour-07.jpg", "subject": "Norway fjord landscape" },
+    { "id": "tour-08", "path": "assets/images/tours/tour-08.jpg", "subject": "Iceland waterfall" },
+    { "id": "tour-09", "path": "assets/images/tours/tour-09.jpg", "subject": "Prague old town bridge" },
+    { "id": "tour-10", "path": "assets/images/tours/tour-10.jpg", "subject": "Vienna classical architecture" },
+    { "id": "tour-11", "path": "assets/images/tours/tour-11.jpg", "subject": "Dubrovnik city walls" },
+    { "id": "tour-12", "path": "assets/images/tours/tour-12.jpg", "subject": "Amsterdam canal houses" }
+  ],
+  "gallery": [
+    { "id": "gallery-01", "path": "assets/images/gallery/gallery-01.jpg", "subject": "Fjord mountains at sunrise" },
+    { "id": "gallery-02", "path": "assets/images/gallery/gallery-02.jpg", "subject": "Alpine village by a lake" },
+    { "id": "gallery-03", "path": "assets/images/gallery/gallery-03.jpg", "subject": "Lavender fields" },
+    { "id": "gallery-04", "path": "assets/images/gallery/gallery-04.jpg", "subject": "Old town streets at dusk" },
+    { "id": "gallery-05", "path": "assets/images/gallery/gallery-05.jpg", "subject": "Lake and mountain trail" },
+    { "id": "gallery-06", "path": "assets/images/gallery/gallery-06.jpg", "subject": "Iceland waterfall" },
+    { "id": "gallery-07", "path": "assets/images/gallery/gallery-07.jpg", "subject": "City skyline at golden hour" },
+    { "id": "gallery-08", "path": "assets/images/gallery/gallery-08.jpg", "subject": "Coastal cliffs and turquoise sea" },
+    { "id": "gallery-09", "path": "assets/images/gallery/gallery-09.jpg", "subject": "Historic bridge over river" },
+    { "id": "gallery-10", "path": "assets/images/gallery/gallery-10.jpg", "subject": "Mediterranean beach cove" },
+    { "id": "gallery-11", "path": "assets/images/gallery/gallery-11.jpg", "subject": "White village on a cliff" },
+    { "id": "gallery-12", "path": "assets/images/gallery/gallery-12.jpg", "subject": "Canal city with bicycles" }
+  ],
+  "avatars": [
+    { "id": "avatar-01", "path": "assets/images/avatars/avatar-01.jpg", "subject": "Smiling traveler portrait" },
+    { "id": "avatar-02", "path": "assets/images/avatars/avatar-02.jpg", "subject": "Smiling traveler portrait" },
+    { "id": "avatar-03", "path": "assets/images/avatars/avatar-03.jpg", "subject": "Smiling traveler portrait" },
+    { "id": "avatar-04", "path": "assets/images/avatars/avatar-04.jpg", "subject": "Smiling traveler portrait" },
+    { "id": "avatar-05", "path": "assets/images/avatars/avatar-05.jpg", "subject": "Smiling traveler portrait" },
+    { "id": "avatar-06", "path": "assets/images/avatars/avatar-06.jpg", "subject": "Smiling traveler portrait" },
+    { "id": "avatar-07", "path": "assets/images/avatars/avatar-07.jpg", "subject": "Smiling traveler portrait" },
+    { "id": "avatar-08", "path": "assets/images/avatars/avatar-08.jpg", "subject": "Smiling traveler portrait" }
+  ]
+}

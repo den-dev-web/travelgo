@@ -1,0 +1,108 @@
+{
+  "reviews": [
+    {
+      "id": "review-01",
+      "name": "Sophie M.",
+      "country": { "en": "France", "uk": "Франція", "ru": "Франция" },
+      "date": { "en": "12 Mar 2025", "uk": "12.03.2025", "ru": "12.03.2025" },
+      "rating": 5,
+      "text": {
+        "en": "Booked Lisbon & Porto and felt cared for from day one.",
+        "uk": "Лісабон і Порту — ідеально сплановано, сервіс супер.",
+        "ru": "Лиссабон и Порту — идеально спланировано, сервис супер."
+      },
+      "avatar": "assets/images/avatars/avatar-01.jpg"
+    },
+    {
+      "id": "review-02",
+      "name": "Daniel K.",
+      "country": { "en": "Germany", "uk": "Німеччина", "ru": "Германия" },
+      "date": { "en": "26 Feb 2025", "uk": "26.02.2025", "ru": "26.02.2025" },
+      "rating": 5,
+      "text": {
+        "en": "Norway fjords were breathtaking; support replied in minutes.",
+        "uk": "Фіорди Норвегії — вау, підтримка відповідає миттєво.",
+        "ru": "Фьорды Норвегии — вау, поддержка отвечает мгновенно."
+      },
+      "avatar": "assets/images/avatars/avatar-02.jpg"
+    },
+    {
+      "id": "review-03",
+      "name": "Maya R.",
+      "country": { "en": "United Kingdom", "uk": "Велика Британія", "ru": "Великобритания" },
+      "date": { "en": "08 Feb 2025", "uk": "08.02.2025", "ru": "08.02.2025" },
+      "rating": 5,
+      "text": {
+        "en": "Great hotels, perfect locations. We walked everywhere.",
+        "uk": "Готелі в ідеальних локаціях — всюди пішки.",
+        "ru": "Отели в отличных локациях — везде пешком."
+      },
+      "avatar": "assets/images/avatars/avatar-03.jpg"
+    },
+    {
+      "id": "review-04",
+      "name": "Luca P.",
+      "country": { "en": "Italy", "uk": "Італія", "ru": "Италия" },
+      "date": { "en": "21 Jan 2025", "uk": "21.01.2025", "ru": "21.01.2025" },
+      "rating": 5,
+      "text": {
+        "en": "Amalfi felt like a movie. Food tour was a highlight.",
+        "uk": "Амальфі — як у фільмі. Гастротур топ.",
+        "ru": "Амальфи — как в кино. Гастротур топ."
+      },
+      "avatar": "assets/images/avatars/avatar-04.jpg"
+    },
+    {
+      "id": "review-05",
+      "name": "Olena S.",
+      "country": { "en": "Ukraine", "uk": "Україна", "ru": "Украина" },
+      "date": { "en": "09 Jan 2025", "uk": "09.01.2025", "ru": "09.01.2025" },
+      "rating": 5,
+      "text": {
+        "en": "We changed dates once, everything updated smoothly.",
+        "uk": "Змінили дати — усе оновили без проблем.",
+        "ru": "Поменяли даты — всё обновили без проблем."
+      },
+      "avatar": "assets/images/avatars/avatar-05.jpg"
+    },
+    {
+      "id": "review-06",
+      "name": "Jonas H.",
+      "country": { "en": "Sweden", "uk": "Швеція", "ru": "Швеция" },
+      "date": { "en": "19 Dec 2024", "uk": "19.12.2024", "ru": "19.12.2024" },
+      "rating": 5,
+      "text": {
+        "en": "Iceland was intense but perfectly organized.",
+        "uk": "Ісландія — насичено, але організація ідеальна.",
+        "ru": "Исландия — насыщенно, но организация идеальная."
+      },
+      "avatar": "assets/images/avatars/avatar-06.jpg"
+    },
+    {
+      "id": "review-07",
+      "name": "Petra N.",
+      "country": { "en": "Austria", "uk": "Австрія", "ru": "Австрия" },
+      "date": { "en": "02 Dec 2024", "uk": "02.12.2024", "ru": "02.12.2024" },
+      "rating": 5,
+      "text": {
+        "en": "Loved the mix of city and nature in Switzerland.",
+        "uk": "Класне поєднання міста й природи у Швейцарії.",
+        "ru": "Классное сочетание города и природы в Швейцарии."
+      },
+      "avatar": "assets/images/avatars/avatar-07.jpg"
+    },
+    {
+      "id": "review-08",
+      "name": "Arjun S.",
+      "country": { "en": "India", "uk": "Індія", "ru": "Индия" },
+      "date": { "en": "22 Nov 2024", "uk": "22.11.2024", "ru": "22.11.2024" },
+      "rating": 5,
+      "text": {
+        "en": "Barcelona trip was easy, safe, and stylish.",
+        "uk": "Барселона — легко, безпечно й стильно.",
+        "ru": "Барселона — легко, безопасно и стильно."
+      },
+      "avatar": "assets/images/avatars/avatar-08.jpg"
+    }
+  ]
+}

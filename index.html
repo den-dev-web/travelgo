@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="./assets/icons/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TravelGo — Travel & Tours</title>
+    <link rel="preload" href="./assets/images/hero/hero-01.jpg" as="image" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="c-header" id="top">
+      <div class="o-container c-header__inner">
+        <a class="c-header__logo" href="./index.html">TravelGo</a>
+        <div class="c-header__right">
+          <nav class="c-header__nav" aria-label="Основная навигация">
+            <a href="#destinations">Направления</a>
+            <a href="#catalog">Каталог</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#faq">FAQ</a>
+            <a class="c-button c-button--primary" href="#search"
+              >Подобрать тур</a
+            >
+          </nav>
+          <div class="c-header__controls" aria-label="Настройки">
+            <button
+              class="c-header__control c-header__control--icon-only"
+              type="button"
+              data-theme-toggle
+              aria-pressed="false"
+              aria-label="Переключить тему"
+            >
+              <span
+                class="c-header__control-icon"
+                data-theme-icon
+                aria-hidden="true"
+                >☀</span
+              >
+            </button>
+            <div class="c-lang" data-lang>
+              <button
+                class="c-header__control c-header__control--icon-only"
+                type="button"
+                data-lang-toggle
+                aria-expanded="false"
+                aria-haspopup="true"
+                aria-label="Вибрати мову"
+              >
+                <span
+                  class="c-header__control-icon"
+                  data-lang-icon
+                  aria-hidden="true"
+                  >UK</span
+                >
+              </button>
+              <div class="c-lang__menu" data-lang-menu aria-hidden="true">
+                <button
+                  class="c-lang__option"
+                  type="button"
+                  data-lang-option="uk"
+                >
+                  Українська
+                </button>
+                <button
+                  class="c-lang__option"
+                  type="button"
+                  data-lang-option="en"
+                >
+                  English
+                </button>
+                <button
+                  class="c-lang__option"
+                  type="button"
+                  data-lang-option="ru"
+                >
+                  Русский
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="c-header__toggle"
+            type="button"
+            data-menu-button
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Открыть меню"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="c-modal c-modal--drawer"
+      data-menu
+      id="mobile-menu"
+      aria-hidden="true"
+    >
+      <div class="c-modal__overlay" data-menu-overlay></div>
+      <div
+        class="c-modal__panel"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Мобильное меню"
+      >
+        <div class="c-modal__header c-modal__header--right">
+          <button
+            class="c-button c-button--ghost"
+            type="button"
+            data-menu-close
+            aria-label="Закрыть"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <nav class="c-modal__nav" aria-label="Мобильная навигация">
+          <a href="#destinations">Направления</a>
+          <a href="#catalog">Каталог</a>
+          <a href="#gallery">Галерея</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">FAQ</a>
+          <a class="c-button c-button--secondary" href="#search"
+            >Подобрать тур</a
+          >
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section class="c-hero c-section c-reveal" id="hero">
+        <div class="c-hero__media" aria-hidden="true">
+          <div class="c-hero__slides">
+            <video
+              class="c-hero__slide is-active"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="./assets/images/hero/hero-01.jpg"
+            >
+              <source
+                src="./assets/video/hero-01.webm"
+                type="video/webm"
+                media="(min-width: 900px)"
+              />
+              <source
+                src="./assets/video/hero-01.mp4"
+                type="video/mp4"
+                media="(min-width: 900px)"
+              />
+            </video>
+            <video
+              class="c-hero__slide"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="./assets/images/hero/hero-01.jpg"
+            >
+              <source
+                src="./assets/video/hero-02.webm"
+                type="video/webm"
+                media="(min-width: 900px)"
+              />
+              <source
+                src="./assets/video/hero-02.mp4"
+                type="video/mp4"
+                media="(min-width: 900px)"
+              />
+            </video>
+            <video
+              class="c-hero__slide"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="./assets/images/hero/hero-01.jpg"
+            >
+              <source
+                src="./assets/video/hero-03.webm"
+                type="video/webm"
+                media="(min-width: 900px)"
+              />
+              <source
+                src="./assets/video/hero-03.mp4"
+                type="video/mp4"
+                media="(min-width: 900px)"
+              />
+            </video>
+          </div>
+          <img
+            class="c-hero__poster"
+            src="./assets/images/hero/hero-01.jpg"
+            alt=""
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="o-container c-hero__inner">
+          <div class="c-hero__content">
+            <div class="c-hero__lead">
+              <p class="c-section__eyebrow">Туры 2025</p>
+              <h1 class="c-hero__title">
+                Путешествия с маршрутом, который влюбляет
+              </h1>
+              <p class="c-hero__text">
+                TravelGo собирает лучшие направления Европы: море, горы,
+                гастрономия и комфортные отели — всё в одном маршруте.
+              </p>
+              <div class="c-hero__actions">
+                <a class="c-button c-button--primary" href="#search"
+                  >Найти тур</a
+                >
+                <a class="c-button c-button--ghost" href="#catalog"
+                  >Смотреть каталог</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="c-hero__highlights" aria-label="Преимущества">
+            <div class="c-hero__highlight">
+              <span class="c-hero__highlight-value">24 направления</span>
+              <span class="c-hero__highlight-label"
+                >в Европе и на островах</span
+              >
+            </div>
+            <div class="c-hero__highlight">
+              <span class="c-hero__highlight-value">от 4 дней</span>
+              <span class="c-hero__highlight-label"
+                >формат уик-эндов и отпусков</span
+              >
+            </div>
+            <div class="c-hero__highlight">
+              <span class="c-hero__highlight-value">+15%</span>
+              <span class="c-hero__highlight-label"
+                >скидка при раннем бронировании</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-search c-section c-reveal" id="search">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Поиск тура</p>
+            <h2 class="c-section__title">Куда поедем?</h2>
+          </div>
+          <form class="c-search__form" data-search-form novalidate>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Направление</span>
+              <div class="c-select" data-select="destination">
+                <button
+                  class="c-select__trigger is-placeholder"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                  aria-describedby="search-destination-error"
+                  data-select-trigger
+                >
+                  <span class="c-select__value" data-select-value
+                    >Выберите страну</span
+                  >
+                  <span class="c-select__icon" aria-hidden="true"></span>
+                </button>
+                <input
+                  type="hidden"
+                  name="destination"
+                  required
+                  data-select-input
+                />
+              </div>
+            </label>
+            <label class="c-field" data-field data-field-range>
+              <span class="c-field__label">Период тура</span>
+              <div class="c-date-range">
+                <button
+                  class="c-date-range__trigger is-placeholder"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                  aria-describedby="search-date-error"
+                  data-date-trigger
+                >
+                  <span class="c-date-range__value" data-date-value
+                    >Выберите даты</span
+                  >
+                  <span class="c-date-range__icon" aria-hidden="true"></span>
+                </button>
+                <input type="hidden" name="start" required data-date-start />
+                <input type="hidden" name="end" required data-date-end />
+              </div>
+            </label>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Путешественники</span>
+              <div class="c-select" data-select="people" data-default-value="2">
+                <button
+                  class="c-select__trigger"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                  data-select-trigger
+                >
+                  <span class="c-select__value" data-select-value
+                    >2 человека</span
+                  >
+                  <span class="c-select__icon" aria-hidden="true"></span>
+                </button>
+                <input
+                  type="hidden"
+                  name="people"
+                  value="2"
+                  data-select-input
+                />
+              </div>
+            </label>
+            <button class="c-button c-button--primary" type="submit">
+              Искать тур
+            </button>
+          </form>
+          <p class="c-search__hint" aria-live="polite" data-search-status></p>
+        </div>
+      </section>
+
+      <div
+        class="c-modal c-modal--sheet c-select-modal"
+        data-select-modal
+        aria-hidden="true"
+      >
+        <div class="c-modal__overlay" data-select-overlay></div>
+        <div
+          class="c-modal__panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="select-modal-title"
+        >
+          <div class="c-modal__header c-select-modal__header">
+            <h3
+              class="c-select-modal__title"
+              id="select-modal-title"
+              data-select-title
+            ></h3>
+            <button
+              class="c-select-modal__close"
+              type="button"
+              data-select-close
+              aria-label="Закрыть"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="c-select-modal__list" data-select-list></div>
+        </div>
+      </div>
+
+      <div
+        class="c-modal c-modal--sheet c-date-modal"
+        data-date-modal
+        aria-hidden="true"
+      >
+        <div class="c-modal__overlay" data-date-overlay></div>
+        <div
+          class="c-modal__panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="date-modal-title"
+        >
+          <div class="c-modal__header c-date-modal__header">
+            <h3 class="c-date-modal__title" id="date-modal-title">
+              Период тура
+            </h3>
+            <button
+              class="c-date-modal__close"
+              type="button"
+              data-date-close
+              aria-label="Закрыть"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="c-date-modal__inputs">
+            <label class="c-field">
+              <span class="c-field__label">Дата начала</span>
+              <input
+                class="c-field__control c-field__control--date"
+                type="date"
+                data-date-input="start"
+              />
+            </label>
+            <label class="c-field">
+              <span class="c-field__label">Дата окончания</span>
+              <input
+                class="c-field__control c-field__control--date"
+                type="date"
+                data-date-input="end"
+              />
+            </label>
+          </div>
+          <div class="c-date-modal__calendars" data-date-calendars></div>
+          <div class="c-date-modal__footer">
+            <button
+              class="c-button c-button--primary"
+              type="button"
+              data-date-apply
+            >
+              Готово
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <section class="c-section c-reveal" id="destinations">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Популярные направления</p>
+            <h2 class="c-section__title">Куда чаще всего бронируют</h2>
+          </div>
+          <div class="o-grid">
+            <article class="c-card" data-featured-tour="amalfi-coast-escape">
+              <div
+                class="c-card__media media-frame"
+                style="--media-ratio: 4 / 3"
+              >
+                <picture>
+                  <source
+                    srcset="./assets/images/tours/Italy_Amalfi.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="./assets/images/tours/Italy_Amalfi.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="./assets/images/tours/Italy_Amalfi.jpg"
+                    alt="Амальфи"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <span class="c-badge">Популярно</span>
+                  <span class="c-badge c-badge--muted c-card__country"
+                    >Италия</span
+                  >
+                </div>
+                <h3 class="c-card__title">Амальфи</h3>
+                <p>Солнечные утёсы, лимонные рощи и морские городки.</p>
+                <div class="c-card__actions">
+                  <a
+                    class="c-button c-button--ghost"
+                    href="./tour.html?id=amalfi-coast-escape"
+                    >Подробнее</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="c-card" data-featured-tour="swiss-alps-panorama">
+              <div
+                class="c-card__media media-frame"
+                style="--media-ratio: 4 / 3"
+              >
+                <picture>
+                  <source
+                    srcset="./assets/images/tours/Switzerland.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="./assets/images/tours/Switzerland.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="./assets/images/tours/Switzerland.jpg"
+                    alt="Швейцария"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <span class="c-badge c-badge--secondary">Топ</span>
+                  <span class="c-badge c-badge--muted c-card__country"
+                    >Швейцария</span
+                  >
+                </div>
+                <h3 class="c-card__title">Альпы</h3>
+                <p>Кристальные озёра, горные поезда и панорамы.</p>
+                <div class="c-card__actions">
+                  <a
+                    class="c-button c-button--ghost"
+                    href="./tour.html?id=swiss-alps-panorama"
+                    >Подробнее</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="c-card" data-featured-tour="barcelona-costa-brava">
+              <div
+                class="c-card__media media-frame"
+                style="--media-ratio: 4 / 3"
+              >
+                <picture>
+                  <source
+                    srcset="./assets/images/tours/Spain_Barcelona.avif"
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="./assets/images/tours/Spain_Barcelona.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="./assets/images/tours/Spain_Barcelona.jpg"
+                    alt="Барселона"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <span class="c-badge c-badge--success">Новинка</span>
+                  <span class="c-badge c-badge--muted c-card__country"
+                    >Испания</span
+                  >
+                </div>
+                <h3 class="c-card__title">Барселона</h3>
+                <p>Архитектура Гауди, тапас-бары и море.</p>
+                <div class="c-card__actions">
+                  <a
+                    class="c-button c-button--ghost"
+                    href="./tour.html?id=barcelona-costa-brava"
+                    >Подробнее</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-catalog c-section c-reveal" id="catalog">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Каталог</p>
+            <h2 class="c-section__title">Выберите путешествие мечты</h2>
+          </div>
+          <div class="c-catalog__filters">
+            <div class="c-filters-summary" data-filters-summary></div>
+            <button
+              class="c-button c-button--ghost"
+              type="button"
+              data-filters-open
+            >
+              Фильтры
+            </button>
+          </div>
+          <p class="c-catalog__status" aria-live="polite" data-tours-count></p>
+          <div class="o-grid" data-tours-list>
+            <article class="c-card c-card--skeleton" aria-hidden="true">
+              <div
+                class="c-card__media media-frame"
+                style="--media-ratio: 4 / 3"
+              ></div>
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <span>Загрузка...</span>
+                </div>
+                <div class="c-card__title">&nbsp;</div>
+                <p>&nbsp;</p>
+              </div>
+            </article>
+            <article class="c-card c-card--skeleton" aria-hidden="true">
+              <div
+                class="c-card__media media-frame"
+                style="--media-ratio: 4 / 3"
+              ></div>
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <span>Загрузка...</span>
+                </div>
+                <div class="c-card__title">&nbsp;</div>
+                <p>&nbsp;</p>
+              </div>
+            </article>
+            <article class="c-card c-card--skeleton" aria-hidden="true">
+              <div
+                class="c-card__media media-frame"
+                style="--media-ratio: 4 / 3"
+              ></div>
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <span>Загрузка...</span>
+                </div>
+                <div class="c-card__title">&nbsp;</div>
+                <p>&nbsp;</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="c-modal c-modal--sheet c-filters-modal"
+        data-filters-modal
+        aria-hidden="true"
+      >
+        <div class="c-modal__overlay" data-filters-overlay></div>
+        <div
+          class="c-modal__panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="filters-modal-title"
+        >
+          <div class="c-modal__header c-filters-modal__header">
+            <h3 class="c-filters-modal__title" id="filters-modal-title">
+              Фильтры каталога
+            </h3>
+            <button
+              class="c-filters-modal__close"
+              type="button"
+              data-filters-close
+              aria-label="Закрыть"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form class="c-filters" data-filters>
+            <label class="c-field">
+              <span class="c-field__label">Страна</span>
+              <div
+                class="c-filter-select"
+                data-filter-select
+                data-filter-key="country"
+              >
+                <button
+                  class="c-filter-select__trigger"
+                  type="button"
+                  data-filter-trigger
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                >
+                  <span class="c-filter-select__value" data-filter-value
+                    >Любая</span
+                  >
+                  <span class="c-filter-select__icon" aria-hidden="true"></span>
+                </button>
+                <div class="c-filter-select__menu" data-filter-menu>
+                  <button
+                    class="c-filter-select__option is-selected"
+                    type="button"
+                    data-filter-option
+                    data-value=""
+                  >
+                    Любая
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="austria"
+                  >
+                    Австрия
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="greece"
+                  >
+                    Греция
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="iceland"
+                  >
+                    Исландия
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="spain"
+                  >
+                    Испания
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="italy"
+                  >
+                    Италия
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="netherlands"
+                  >
+                    Нидерланды
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="norway"
+                  >
+                    Норвегия
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="portugal"
+                  >
+                    Португалия
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="france"
+                  >
+                    Франция
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="croatia"
+                  >
+                    Хорватия
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="czechia"
+                  >
+                    Чехия
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="switzerland"
+                  >
+                    Швейцария
+                  </button>
+                </div>
+                <input
+                  type="hidden"
+                  name="country"
+                  value=""
+                  data-filter-input
+                />
+              </div>
+            </label>
+            <label class="c-field">
+              <span class="c-field__label">Период тура</span>
+              <div class="c-date-range">
+                <button
+                  class="c-date-range__trigger is-placeholder"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                  data-date-trigger
+                >
+                  <span class="c-date-range__value" data-date-value
+                    >Выберите даты</span
+                  >
+                  <span class="c-date-range__icon" aria-hidden="true"></span>
+                </button>
+                <input type="hidden" name="periodStart" data-date-start />
+                <input type="hidden" name="periodEnd" data-date-end />
+              </div>
+            </label>
+            <label class="c-field">
+              <span class="c-field__label">Длительность</span>
+              <div
+                class="c-filter-select"
+                data-filter-select
+                data-filter-key="days"
+              >
+                <button
+                  class="c-filter-select__trigger"
+                  type="button"
+                  data-filter-trigger
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                >
+                  <span class="c-filter-select__value" data-filter-value
+                    >Любая</span
+                  >
+                  <span class="c-filter-select__icon" aria-hidden="true"></span>
+                </button>
+                <div class="c-filter-select__menu" data-filter-menu>
+                  <button
+                    class="c-filter-select__option is-selected"
+                    type="button"
+                    data-filter-option
+                    data-value=""
+                  >
+                    Любая
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="4-6"
+                  >
+                    4-6 дней
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="7-8"
+                  >
+                    7-8 дней
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="9+"
+                  >
+                    9+ дней
+                  </button>
+                </div>
+                <input type="hidden" name="days" value="" data-filter-input />
+              </div>
+            </label>
+            <label class="c-field">
+              <span class="c-field__label">Путешественники</span>
+              <div
+                class="c-filter-select"
+                data-filter-select
+                data-filter-key="people"
+              >
+                <button
+                  class="c-filter-select__trigger"
+                  type="button"
+                  data-filter-trigger
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                >
+                  <span class="c-filter-select__value" data-filter-value
+                    >Любое количество</span
+                  >
+                  <span class="c-filter-select__icon" aria-hidden="true"></span>
+                </button>
+                <div class="c-filter-select__menu" data-filter-menu>
+                  <button
+                    class="c-filter-select__option is-selected"
+                    type="button"
+                    data-filter-option
+                    data-value=""
+                  >
+                    Любое количество
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="1"
+                  >
+                    1 человек
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="2"
+                  >
+                    2 человека
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="3"
+                  >
+                    3 человека
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="4"
+                  >
+                    4 человека
+                  </button>
+                </div>
+                <input type="hidden" name="people" value="" data-filter-input />
+              </div>
+            </label>
+            <label class="c-field">
+              <span class="c-field__label">Цена (EUR)</span>
+              <input
+                class="c-field__control"
+                type="range"
+                name="price"
+                min="400"
+                max="1200"
+                value="800"
+                data-filter="price"
+              />
+              <span class="c-field__hint" data-price-output>До 800 EUR</span>
+            </label>
+            <label class="c-field">
+              <span class="c-field__label">Рейтинг</span>
+              <div
+                class="c-filter-select"
+                data-filter-select
+                data-filter-key="rating"
+              >
+                <button
+                  class="c-filter-select__trigger"
+                  type="button"
+                  data-filter-trigger
+                  aria-haspopup="dialog"
+                  aria-expanded="false"
+                >
+                  <span class="c-filter-select__value" data-filter-value
+                    >Любой</span
+                  >
+                  <span class="c-filter-select__icon" aria-hidden="true"></span>
+                </button>
+                <div class="c-filter-select__menu" data-filter-menu>
+                  <button
+                    class="c-filter-select__option is-selected"
+                    type="button"
+                    data-filter-option
+                    data-value=""
+                  >
+                    Любой
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="4.6"
+                  >
+                    4.6+
+                  </button>
+                  <button
+                    class="c-filter-select__option"
+                    type="button"
+                    data-filter-option
+                    data-value="4.8"
+                  >
+                    4.8+
+                  </button>
+                </div>
+                <input type="hidden" name="rating" value="" data-filter-input />
+              </div>
+            </label>
+          </form>
+          <div class="c-filters-modal__footer">
+            <button
+              class="c-button c-button--primary"
+              type="button"
+              data-filters-apply
+            >
+              Применить
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="c-modal c-modal--sheet c-filter-select-modal"
+        data-filter-select-modal
+        aria-hidden="true"
+      >
+        <div class="c-modal__overlay" data-filter-select-overlay></div>
+        <div
+          class="c-modal__panel"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="filter-select-title"
+        >
+          <div class="c-modal__header c-filter-select-modal__header">
+            <h3
+              class="c-filter-select-modal__title"
+              id="filter-select-title"
+              data-filter-select-title
+            ></h3>
+            <button
+              class="c-filter-select-modal__close"
+              type="button"
+              data-filter-select-close
+              aria-label="Закрыть"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div
+            class="c-filter-select-modal__list"
+            data-filter-select-list
+          ></div>
+        </div>
+      </div>
+
+      <section class="c-section c-reveal" id="advantages">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Преимущества</p>
+            <h2 class="c-section__title">Почему TravelGo</h2>
+          </div>
+          <div class="o-grid">
+            <article class="c-card">
+              <div class="c-card__body">
+                <h3 class="c-card__title">Тщательно собранные маршруты</h3>
+                <p>Каждый тур включает лучшие локации и оптимальный тайминг.</p>
+              </div>
+            </article>
+            <article class="c-card">
+              <div class="c-card__body">
+                <h3 class="c-card__title">Поддержка 24/7</h3>
+                <p>Остаёмся на связи до, во время и после поездки.</p>
+              </div>
+            </article>
+            <article class="c-card">
+              <div class="c-card__body">
+                <h3 class="c-card__title">Комфортные отели</h3>
+                <p>Выбираем 3-4* отели рядом с ключевыми точками маршрута.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-section c-reveal" id="why">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Почему выбирают нас</p>
+            <h2 class="c-section__title">Сервис, который чувствуется</h2>
+          </div>
+          <div class="o-grid">
+            <article class="c-card">
+              <div class="c-card__body">
+                <h3 class="c-card__title">Премиум-навигация</h3>
+                <p>Подробные гайды, карты и чек-листы для спокойной поездки.</p>
+              </div>
+            </article>
+            <article class="c-card">
+              <div class="c-card__body">
+                <h3 class="c-card__title">Умные подборки</h3>
+                <p>Мы сравниваем цены и сезоны, чтобы предложить лучшее.</p>
+              </div>
+            </article>
+            <article class="c-card">
+              <div class="c-card__body">
+                <h3 class="c-card__title">Гибкое бронирование</h3>
+                <p>Есть возможность переносов и быстрых изменений.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-gallery c-section c-reveal" id="gallery">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Галерея</p>
+            <h2 class="c-section__title">Путешествия в кадрах</h2>
+          </div>
+          <div class="c-gallery__grid">
+            <figure class="c-gallery__item" style="--media-ratio: 4 / 3">
+              <picture>
+                <source
+                  srcset="./assets/images/gallery/Portugal/portugal_004.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./assets/images/gallery/Portugal/portugal_004.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/Portugal/portugal_004.jpg"
+                  alt="Португалия"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+            <figure class="c-gallery__item" style="--media-ratio: 3 / 4">
+              <picture>
+                <source
+                  srcset="./assets/images/gallery/Croatia/croatia_002.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./assets/images/gallery/Croatia/croatia_002.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/Croatia/croatia_002.jpg"
+                  alt="Хорватия"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+            <figure class="c-gallery__item" style="--media-ratio: 16 / 9">
+              <picture>
+                <source
+                  srcset="./assets/images/gallery/Iceland/iceland_004.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./assets/images/gallery/Iceland/iceland_004.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/Iceland/iceland_004.jpg"
+                  alt="Франция"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+            <figure class="c-gallery__item" style="--media-ratio: 4 / 3">
+              <picture>
+                <source
+                  srcset="./assets/images/gallery/Norway/norway_004.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./assets/images/gallery/Norway/norway_004.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/Norway/norway_004.jpg"
+                  alt="Норвегия"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+            <figure class="c-gallery__item" style="--media-ratio: 3 / 4">
+              <picture>
+                <source
+                  srcset="./assets/images/gallery/France/france_007.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./assets/images/gallery/France/france_007.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/France/france_007.jpg"
+                  alt="Франция"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+            <figure class="c-gallery__item" style="--media-ratio: 16 / 9">
+              <picture>
+                <source
+                  srcset="./assets/images/gallery/Spain/spain_002.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./assets/images/gallery/Spain/spain_002.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/Spain/spain_002.jpg"
+                  alt="Испания"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+            <figure class="c-gallery__item" style="--media-ratio: 4 / 3">
+              <picture>
+                <source
+                  srcset="
+                    ./assets/images/gallery/Switzerland/switzerland_004.avif
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    ./assets/images/gallery/Switzerland/switzerland_004.webp
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/Switzerland/switzerland_004.jpg"
+                  alt="Switzerland"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+            <figure class="c-gallery__item" style="--media-ratio: 3 / 4">
+              <picture>
+                <source
+                  srcset="./assets/images/gallery/Greece/greece_002.avif"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./assets/images/gallery/Greece/greece_002.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="./assets/images/gallery/Greece/greece_002.jpg"
+                  alt="Греция"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </picture>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-reviews c-section c-reveal" id="reviews">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">Отзывы</p>
+            <h2 class="c-section__title">Истории наших путешественников</h2>
+          </div>
+          <div class="c-reviews__controls">
+            <button
+              class="c-button c-reviews__arrow c-reviews__arrow--prev"
+              type="button"
+              data-reviews-prev
+              aria-label="Назад"
+            >
+              <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+                <path
+                  d="M12.5 4.5L7.5 10l5 5.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+            <button
+              class="c-button c-reviews__arrow c-reviews__arrow--next"
+              type="button"
+              data-reviews-next
+              aria-label="Вперёд"
+            >
+              <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+                <path
+                  d="M12.5 4.5L7.5 10l5 5.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="c-reviews__track"
+            role="list"
+            data-reviews-track
+            tabindex="0"
+          >
+            <article class="c-card c-reviews__card" role="listitem">
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <img
+                    src="./assets/images/avatars/avatar-01.jpg"
+                    alt="Sophie"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div>
+                    <div class="c-reviews__name">Sophie M.</div>
+                    <div class="c-reviews__meta">France · 12.03.2025</div>
+                  </div>
+                </div>
+                <p>"Лиссабон и Порту — идеально спланировано, сервис супер."</p>
+                <div
+                  class="c-rating"
+                  style="--rating: 5"
+                  aria-label="Рейтинг 5 из 5"
+                >
+                  <span class="c-rating__stars">★★★★★</span>
+                  <span class="c-rating__value">5.0</span>
+                </div>
+              </div>
+            </article>
+            <article class="c-card c-reviews__card" role="listitem">
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <img
+                    src="./assets/images/avatars/avatar-02.jpg"
+                    alt="Daniel"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div>
+                    <div class="c-reviews__name">Daniel K.</div>
+                    <div class="c-reviews__meta">Germany · 26.02.2025</div>
+                  </div>
+                </div>
+                <p>"Фьорды Норвегии — вау, поддержка отвечает мгновенно."</p>
+                <div
+                  class="c-rating"
+                  style="--rating: 5"
+                  aria-label="Рейтинг 5 из 5"
+                >
+                  <span class="c-rating__stars">★★★★★</span>
+                  <span class="c-rating__value">5.0</span>
+                </div>
+              </div>
+            </article>
+            <article class="c-card c-reviews__card" role="listitem">
+              <div class="c-card__body">
+                <div class="c-card__meta">
+                  <img
+                    src="./assets/images/avatars/avatar-03.jpg"
+                    alt="Maya"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div>
+                    <div class="c-reviews__name">Maya R.</div>
+                    <div class="c-reviews__meta">UK · 08.02.2025</div>
+                  </div>
+                </div>
+                <p>"Отели в отличных локациях — везде пешком."</p>
+                <div
+                  class="c-rating"
+                  style="--rating: 5"
+                  aria-label="Рейтинг 5 из 5"
+                >
+                  <span class="c-rating__stars">★★★★★</span>
+                  <span class="c-rating__value">5.0</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-section c-reveal" id="faq">
+        <div class="o-container">
+          <div class="c-section__header">
+            <p class="c-section__eyebrow">FAQ</p>
+            <h2 class="c-section__title">Частые вопросы</h2>
+          </div>
+          <div class="c-accordion" data-accordion="single">
+            <div class="c-accordion__item" data-accordion-item data-open="true">
+              <button
+                class="c-accordion__trigger"
+                type="button"
+                data-accordion-trigger
+                aria-expanded="true"
+                aria-controls="faq-panel-1"
+              >
+                Вы бронируете авиабилеты?
+              </button>
+              <div
+                class="c-accordion__panel"
+                data-accordion-panel
+                id="faq-panel-1"
+              >
+                <div class="c-accordion__panel-inner">
+                  Мы подскажем маршруты, но билеты вы бронируете самостоятельно
+                  для гибкости.
+                </div>
+              </div>
+            </div>
+            <div class="c-accordion__item" data-accordion-item>
+              <button
+                class="c-accordion__trigger"
+                type="button"
+                data-accordion-trigger
+                aria-expanded="false"
+                aria-controls="faq-panel-2"
+              >
+                Можно ли изменить даты после бронирования?
+              </button>
+              <div
+                class="c-accordion__panel"
+                data-accordion-panel
+                id="faq-panel-2"
+              >
+                <div class="c-accordion__panel-inner">
+                  Да, в зависимости от наличия мест в отеле. Мы поможем
+                  изменить.
+                </div>
+              </div>
+            </div>
+            <div class="c-accordion__item" data-accordion-item>
+              <button
+                class="c-accordion__trigger"
+                type="button"
+                data-accordion-trigger
+                aria-expanded="false"
+                aria-controls="faq-panel-3"
+              >
+                Нужна ли страховка?
+              </button>
+              <div
+                class="c-accordion__panel"
+                data-accordion-panel
+                id="faq-panel-3"
+              >
+                <div class="c-accordion__panel-inner">
+                  Рекомендуем для всех поездок; можем подсказать провайдера.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-subscribe c-section c-reveal" id="subscribe">
+        <div class="o-container c-subscribe__inner">
+          <div>
+            <p class="c-section__eyebrow">Рассылка</p>
+            <h2 class="c-section__title">
+              Вдохновение и лучшие цены раз в неделю
+            </h2>
+          </div>
+          <form class="c-subscribe__form" data-subscribe-form novalidate>
+            <label class="c-field" data-field>
+              <span class="c-field__label">Email</span>
+              <input
+                class="c-field__control"
+                type="email"
+                name="email"
+                placeholder="you@email.com"
+                required
+                aria-describedby="subscribe-email-error"
+              />
+              <span class="c-field__error" id="subscribe-email-error"></span>
+            </label>
+            <button class="c-button c-button--primary" type="submit">
+              Подписаться
+            </button>
+            <p
+              class="c-subscribe__status"
+              aria-live="polite"
+              data-subscribe-status
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="c-footer" id="footer">
+      <div class="o-container c-footer__inner">
+        <div>
+          <div class="c-footer__brand">TravelGo</div>
+          <p>Маршруты, которые хочется повторить.</p>
+        </div>
+        <div>
+          <h3 class="c-footer__title">Компания</h3>
+          <ul class="c-footer__list">
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#why">Почему мы</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="c-footer__title">Поддержка</h3>
+          <ul class="c-footer__list">
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#subscribe">Рассылка</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="c-footer__title">Связаться</h3>
+          <ul class="c-footer__list">
+            <li><a href="mailto:hello@travelgo.com">hello@travelgo.com</a></li>
+            <li><a href="tel:+380001234567">+38 (000) 123-45-67</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="o-container c-footer__bottom">
+        <span>© 2025 TravelGo. Все права защищены.</span>
+        <a
+          class="c-button c-button--ghost c-footer__to-top"
+          href="#top"
+          data-back-to-top
+        >
+          Наверх
+        </a>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

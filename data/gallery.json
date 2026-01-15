@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "gallery-01",
+      "src": "assets/images/gallery/gallery-01.jpg",
+      "ratio": "4:3",
+      "alt": {
+        "en": "Fjord mountains at sunrise",
+        "uk": "Гори фіордів на світанку",
+        "ru": "Горы фьордов на рассвете"
+      }
+    },
+    {
+      "id": "gallery-02",
+      "src": "assets/images/gallery/gallery-02.jpg",
+      "ratio": "3:4",
+      "alt": {
+        "en": "Alpine village by a lake",
+        "uk": "Альпійське село біля озера",
+        "ru": "Альпийская деревня у озера"
+      }
+    },
+    {
+      "id": "gallery-03",
+      "src": "assets/images/gallery/gallery-03.jpg",
+      "ratio": "16:9",
+      "alt": {
+        "en": "Lavender fields in Provence",
+        "uk": "Лавандові поля Провансу",
+        "ru": "Лавандовые поля Прованса"
+      }
+    },
+    {
+      "id": "gallery-04",
+      "src": "assets/images/gallery/gallery-04.jpg",
+      "ratio": "4:3",
+      "alt": {
+        "en": "Old town streets at dusk",
+        "uk": "Вулички старого міста на заході",
+        "ru": "Улицы старого города на закате"
+      }
+    },
+    {
+      "id": "gallery-05",
+      "src": "assets/images/gallery/gallery-05.jpg",
+      "ratio": "3:4",
+      "alt": {
+        "en": "Lake view with mountain trail",
+        "uk": "Озеро та гірська стежка",
+        "ru": "Озеро и горная тропа"
+      }
+    },
+    {
+      "id": "gallery-06",
+      "src": "assets/images/gallery/gallery-06.jpg",
+      "ratio": "16:9",
+      "alt": {
+        "en": "Waterfall in Iceland",
+        "uk": "Водоспад в Ісландії",
+        "ru": "Водопад в Исландии"
+      }
+    },
+    {
+      "id": "gallery-07",
+      "src": "assets/images/gallery/gallery-07.jpg",
+      "ratio": "4:3",
+      "alt": {
+        "en": "City skyline at golden hour",
+        "uk": "Міський горизонт на заході",
+        "ru": "Городской горизонт на закате"
+      }
+    },
+    {
+      "id": "gallery-08",
+      "src": "assets/images/gallery/gallery-08.jpg",
+      "ratio": "3:4",
+      "alt": {
+        "en": "Coastal cliffs and turquoise sea",
+        "uk": "Скелі та бірюзове море",
+        "ru": "Скалы и бирюзовое море"
+      }
+    },
+    {
+      "id": "gallery-09",
+      "src": "assets/images/gallery/gallery-09.jpg",
+      "ratio": "16:9",
+      "alt": {
+        "en": "Historic bridge over a river",
+        "uk": "Історичний міст через річку",
+        "ru": "Исторический мост через реку"
+      }
+    },
+    {
+      "id": "gallery-10",
+      "src": "assets/images/gallery/gallery-10.jpg",
+      "ratio": "4:3",
+      "alt": {
+        "en": "Mediterranean beach cove",
+        "uk": "Середземноморська бухта",
+        "ru": "Средиземноморская бухта"
+      }
+    },
+    {
+      "id": "gallery-11",
+      "src": "assets/images/gallery/gallery-11.jpg",
+      "ratio": "3:4",
+      "alt": {
+        "en": "White village on a cliff",
+        "uk": "Біле містечко на скелі",
+        "ru": "Белый городок на скале"
+      }
+    },
+    {
+      "id": "gallery-12",
+      "src": "assets/images/gallery/gallery-12.jpg",
+      "ratio": "16:9",
+      "alt": {
+        "en": "Canal city with bicycles",
+        "uk": "Місто каналів і велосипедів",
+        "ru": "Город каналов и велосипедов"
+      }
+    }
+  ]
+}
